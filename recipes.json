@@ -1,34 +1,904 @@
 {
   "recipes": [
-    { "name": "Pizza", "content": "1. Roll dough. 2. Add tomato sauce and mozzarella. 3. Bake at 450°F for 15 mins." },
-    { "name": "Pasta Carbonara", "content": "1. Boil spaghetti. 2. Fry guanciale. 3. Mix eggs and pecorino. 4. Combine all with a splash of pasta water." },
-    { "name": "Chicken Tacos", "content": "1. Grill chicken strips. 2. Warm corn tortillas. 3. Top with salsa, onions, and fresh cilantro." },
-    { "name": "Beef Stir-Fry", "content": "1. Slice beef thinly. 2. Sauté with broccoli, ginger, and soy sauce. 3. Serve over steamed rice." },
-    { "name": "Guacamole", "content": "1. Mash 3 avocados. 2. Mix with lime juice, diced onions, and salt. 3. Serve with chips." },
-    { "name": "Pancakes", "content": "1. Whisk flour, milk, and 1 egg. 2. Pour onto a hot buttered griddle. 3. Flip when bubbles appear." },
-    { "name": "Caesar Salad", "content": "1. Chop romaine lettuce. 2. Toss with Caesar dressing and croutons. 3. Top with shaved parmesan." },
-    { "name": "Sushi Rolls", "content": "1. Spread seasoned rice on nori. 2. Add cucumber and raw fish. 3. Roll tightly and slice into rounds." },
-    { "name": "Lentil Soup", "content": "1. Sauté onions and carrots. 2. Add lentils and vegetable broth. 3. Simmer for 30 mins until soft." },
-    { "name": "Greek Salad", "content": "1. Combine cucumbers, tomatoes, and olives. 2. Add a large cube of feta. 3. Drizzle with olive oil and oregano." },
-    { "name": "Omelette", "content": "1. Beat 2 eggs. 2. Pour into a non-stick pan with butter. 3. Add cheese and fold when set." },
-    { "name": "Lasagna", "content": "1. Layer boiled pasta, meat sauce, and ricotta. 2. Top with mozzarella. 3. Bake at 375°F for 45 mins." },
-    { "name": "French Toast", "content": "1. Dip thick bread in egg and cinnamon mix. 2. Fry in butter until golden on both sides." },
-    { "name": "Pad Thai", "content": "1. Stir-fry rice noodles with shrimp, bean sprouts, and peanuts. 2. Season with tamarind paste." },
-    { "name": "Bruschetta", "content": "1. Toast baguette slices. 2. Top with a mix of diced tomatoes, garlic, and basil." },
-    { "name": "Clam Chowder", "content": "1. Cook chopped clams with potatoes, onions, and heavy cream. 2. Serve in a bread bowl." },
-    { "name": "Ratatouille", "content": "1. Slice zucchini, eggplant, and peppers. 2. Layer over tomato sauce and bake until tender." },
-    { "name": "Hummus", "content": "1. Blend chickpeas, tahini, garlic, and lemon juice until smooth. 2. Top with olive oil." },
-    { "name": "Margarita Pizza", "content": "1. Top dough with crushed tomatoes and fresh mozzarella. 2. Bake until charred. 3. Add fresh basil." },
-    { "name": "Brownies", "content": "1. Melt butter and chocolate. 2. Stir in sugar, eggs, and flour. 3. Bake at 350°F for 25 mins." },
-    { "name": "Chicken Curry", "content": "1. Brown chicken pieces. 2. Simmer in a sauce of coconut milk and curry spices. 3. Serve with Naan." },
-    { "name": "Tomato Soup", "content": "1. Simmer roasted tomatoes and vegetable stock. 2. Blend until creamy. 3. Serve with grilled cheese." },
-    { "name": "Fish and Chips", "content": "1. Coat white fish in beer batter. 2. Deep fry until crispy. 3. Serve with thick-cut fries." },
-    { "name": "Falafel", "content": "1. Blend chickpeas with parsley and cumin. 2. Form into balls and deep fry until brown." },
-    { "name": "Shrimp Scampi", "content": "1. Sauté shrimp in plenty of garlic, butter, and lemon juice. 2. Toss with linguine pasta." },
-    { "name": "Apple Pie", "content": "1. Fill pie crust with sliced apples, sugar, and cinnamon. 2. Cover with crust and bake at 400°F." },
-    { "name": "Gazpacho", "content": "1. Blend tomatoes, bell peppers, and cucumbers. 2. Chill for 2 hours. 3. Serve cold." },
-    { "name": "Quiche", "content": "1. Fill a pastry shell with eggs, cream, and spinach. 2. Bake until the center is firm." },
-    { "name": "Chicken Wings", "content": "1. Bake or fry wings until crispy. 2. Toss in a spicy buffalo sauce. 3. Serve with blue cheese." },
-    { "name": "Spring Rolls", "content": "1. Stuff thin wrappers with cabbage and carrots. 2. Roll up and fry until golden and crunchy." }
+    {
+      "name": "Doro Wat",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","chicken","stew","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs chicken thighs, skin removed<br>• 1/2 cup berbere spice<br>• 1 large onion, finely diced<br>• 3 tbsp niter kibbeh<br>• 2 cups water<br>• 4 hard-boiled eggs<br>• 1 tbsp garlic, minced<br>• 1 tbsp ginger, minced<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dry sauté onions until browned (15 min).<br>2. Add niter kibbeh, then berbere, garlic, ginger. Cook 5 min.<br>3. Add chicken, coat well. Cook 10 minutes.<br>4. Add water, bring to boil, simmer 45 min until tender.<br>5. Add scored hard-boiled eggs, simmer 10 more min.<br>6. Season with salt. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 1 hr 10 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Misir Wat",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","lentil","stew","vegan","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups red lentils, rinsed<br>• 1 large onion, diced<br>• 1/4 cup berbere spice<br>• 3 tbsp niter kibbeh or oil<br>• 3 cloves garlic, minced<br>• 1 tbsp ginger, grated<br>• 4 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions until browned.<br>2. Add oil, berbere, garlic, ginger. Cook 3 min.<br>3. Add lentils, stir to coat.<br>4. Add water, bring to boil.<br>5. Cover, simmer 30-40 min until lentils are soft and stew thickens.<br>6. Season with salt. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 45 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Kitfo",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beef","raw","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb lean beef, finely minced<br>• 2 tbsp niter kibbeh<br>• 2 tbsp mitmita spice<br>• 1 tsp cardamom powder<br>• Salt to taste<br>• Ayib (cottage cheese) for serving<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Remove all fat from beef and mince very fine.<br>2. Heat niter kibbeh until hot. Pour over beef, mix well.<br>3. Add mitmita, cardamom, salt. Mix thoroughly.<br>4. Serve raw with injera and ayib.<br>5. For leb-leb (lightly cooked), briefly cook in hot butter 1-2 min.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 0 min | 🍴 Servings: 2-3"
+    },
+    {
+      "name": "Tibs",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beef","sauteed","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb beef sirloin, cubed<br>• 1 large onion, sliced<br>• 2 tbsp niter kibbeh<br>• 2 tbsp berbere<br>• 1 tbsp garlic, minced<br>• 1 tbsp ginger, grated<br>• 1 green chili (optional)<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Season beef with salt and berbere.<br>2. Heat niter kibbeh over high heat.<br>3. Sear beef until browned (2-3 min).<br>4. Add onions, garlic, ginger. Cook 2 min.<br>5. Add berbere, toss well.<br>6. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 2-3"
+    },
+    {
+      "name": "Shiro Wat",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","chickpea","vegan","stew","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups chickpea flour (shiro)<br>• 1 large onion, finely diced<br>• 1/4 cup berbere<br>• 1/2 cup oil<br>• 3 cloves garlic, minced<br>• 1 tbsp ginger, grated<br>• 4 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until golden.<br>2. Add berbere, garlic, ginger. Cook 3 min.<br>3. Add water gradually, whisking.<br>4. Slowly add chickpea flour, whisking continuously.<br>5. Simmer 20 min, stirring often, until thick and smooth.<br>6. Season with salt. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Gomen",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","greens","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb collard greens, finely chopped<br>• 1 large onion, diced<br>• 3 tbsp niter kibbeh or oil<br>• 3 cloves garlic, minced<br>• 1 tbsp ginger, grated<br>• 1 green chili (optional)<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in niter kibbeh until translucent.<br>2. Add garlic, ginger, chili. Cook 2 min.<br>3. Add collard greens, stir well.<br>4. Cover and cook on low 20 min, stirring occasionally.<br>5. Season with salt. Serve as a side with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Atkilt Wat",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","cabbage","potato","carrot","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 head cabbage, chopped<br>• 2 carrots, sliced<br>• 2 potatoes, cubed<br>• 1 onion, sliced<br>• 3 tbsp oil<br>• 1 tsp turmeric<br>• 1 tsp cumin<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until soft.<br>2. Add turmeric, cumin. Cook 1 min.<br>3. Add carrots and potatoes. Cook 5 min.<br>4. Add cabbage, stir well.<br>5. Cover, cook on low 20 min until tender.<br>6. Season with salt. Serve as a side.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Firfir",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","injera","breakfast","spicy"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 injera pieces, torn<br>• 1/2 cup berbere sauce<br>• 1/4 cup niter kibbeh<br>• 1 onion, diced<br>• 2 tbsp oil<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until golden.<br>2. Add berbere sauce and niter kibbeh. Cook 3 min.<br>3. Add torn injera, stir to coat.<br>4. Cook 2 min until injera softens.<br>5. Serve hot, traditionally for breakfast.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 10 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Dulet",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","liver","beef","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb beef tripe<br>• 1/2 lb beef liver<br>• 1/2 lb lean beef<br>• 1 large onion, finely diced<br>• 2 tbsp niter kibbeh<br>• 2 tbsp mitmita<br>• 1 tsp cardamom<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Boil tripe until tender (1 hr). Finely mince all meats.<br>2. Sauté onions in niter kibbeh until soft.<br>3. Add minced meats. Cook 5 min, stirring.<br>4. Add mitmita, cardamom, salt. Mix well.<br>5. Cook 2 more min. Serve with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 1 hr 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Kik Alicha",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","peas","vegan","stew","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups yellow split peas, rinsed<br>• 1 onion, diced<br>• 3 tbsp oil<br>• 1 tbsp garlic, minced<br>• 1 tsp turmeric<br>• 1 tsp ginger, grated<br>• 4 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until translucent.<br>2. Add garlic, ginger, turmeric. Cook 2 min.<br>3. Add split peas and water. Bring to boil.<br>4. Cover, simmer 40 min until soft.<br>5. Mash slightly, season with salt.<br>6. Serve as a mild side dish.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 45 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Azifa",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","lentil","salad","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups green lentils<br>• 1 onion, finely diced<br>• 2 jalapenos, minced<br>• 1/4 cup lemon juice<br>• 3 tbsp olive oil<br>• 1 tsp mustard seeds<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Boil lentils 20 min until tender. Drain and cool.<br>2. Mix lentils with onion and jalapenos.<br>3. Whisk lemon juice, oil, mustard seeds, salt, pepper.<br>4. Pour dressing over lentils, toss.<br>5. Refrigerate 30 min. Serve cold.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Timatim Fitfit",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","tomato","salad","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 ripe tomatoes, diced<br>• 1 onion, finely diced<br>• 2 pieces injera, torn<br>• 2 tbsp lemon juice<br>• 2 tbsp olive oil<br>• 1 green chili, minced<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix tomatoes, onion, chili in a bowl.<br>2. Add lemon juice, olive oil, salt. Toss.<br>3. Add torn injera, mix gently.<br>4. Let sit 5 min. Serve as a refreshing salad.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 0 min | 🍴 Servings: 2-3"
+    },
+    {
+      "name": "Buticha",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","chickpea","salad","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups cooked chickpeas, coarsely mashed<br>• 1 onion, finely diced<br>• 2 tbsp lemon juice<br>• 2 tbsp olive oil<br>• 1 tsp cumin<br>• 1 green chili, minced<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Coarsely mash chickpeas with a fork.<br>2. Mix in onion, chili, cumin, salt.<br>3. Add lemon juice and olive oil. Stir well.<br>4. Adjust seasoning. Serve chilled or at room temp.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Key Sir Alicha",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beetroot","salad","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 medium beets, boiled and cubed<br>• 1 potato, boiled and cubed<br>• 1 onion, thinly sliced<br>• 2 tbsp lemon juice<br>• 2 tbsp olive oil<br>• 1 tsp salt<br>• Fresh parsley<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Boil beets and potato until tender. Cube.<br>2. Combine with sliced onion.<br>3. Drizzle with lemon juice and olive oil. Season with salt.<br>4. Toss gently, garnish with parsley.<br>5. Serve chilled.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Ethiopian Salad",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","salad","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 tomatoes, diced<br>• 1 cucumber, diced<br>• 1 onion, thinly sliced<br>• 1 jalapeno, sliced<br>• 3 tbsp lemon juice<br>• 2 tbsp olive oil<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Combine all vegetables in a bowl.<br>2. Whisk lemon juice, oil, salt, pepper.<br>3. Pour dressing over, toss.<br>4. Serve alongside spicy stews.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Silsi",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","tomato","sauce","vegan","spicy"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 6 ripe tomatoes, blended<br>• 1 onion, finely diced<br>• 3 tbsp berbere<br>• 3 tbsp oil<br>• 3 cloves garlic, minced<br>• 1 tbsp ginger<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until deep golden.<br>2. Add berbere, garlic, ginger. Cook 3 min.<br>3. Add blended tomatoes, simmer 20 min until thick.<br>4. Season with salt. Use for firfir or dipping.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Chechebsa",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","flatbread","breakfast","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups all-purpose flour<br>• 1 cup water<br>• 1/2 tsp salt<br>• 1/4 cup niter kibbeh<br>• 2 tbsp berbere<br>• 1 onion, diced<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, water, salt into a thin batter.<br>2. Cook thin pancakes on a hot greased pan.<br>3. Stack and shred pancakes into strips.<br>4. Sauté onions in niter kibbeh with berbere.<br>5. Toss shredded pancakes in the sauce.<br>6. Serve hot with honey or yogurt.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Genfo",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","porridge","breakfast"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups barley or wheat flour<br>• 4 cups water<br>• 1/2 tsp salt<br>• 3 tbsp niter kibbeh<br>• 2 tbsp berbere<br>• Honey or yogurt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Bring water and salt to a boil.<br>2. Gradually add flour, stirring vigorously.<br>3. Stir until thick and smooth (10 min).<br>4. Shape into a mound on a plate with a well.<br>5. Fill well with warm niter kibbeh and berbere.<br>6. Serve with honey or yogurt.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 15 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Kita",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","bread","vegan","snack"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups all-purpose flour<br>• 1 cup water<br>• 1/2 tsp salt<br>• 2 tbsp oil<br>• 1 tsp cumin seeds (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, salt, cumin. Add water to form dough.<br>2. Knead 5 min. Rest 15 min.<br>3. Divide into balls, flatten into rounds.<br>4. Cook in oiled pan until golden on both sides.<br>5. Serve warm with honey, butter, or stew.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Ambasha",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","bread","snack"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 cups all-purpose flour<br>• 1 cup warm water<br>• 2 tbsp sugar<br>• 2 tbsp butter<br>• 1 tsp yeast<br>• 1/2 tsp salt<br>• 1 tsp cardamom<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dissolve yeast and sugar in warm water. Sit 5 min.<br>2. Mix flour, salt, cardamom. Add yeast mixture and butter.<br>3. Knead into dough. Let rise 1 hr.<br>4. Shape into round loaf, score cross on top.<br>5. Bake at 350°F 25-30 min until golden.<br>6. Brush with butter. Serve warm.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr 10 min | Cook: 30 min | 🍴 Servings: 6-8"
+    },
+    {
+      "name": "Himbasha",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","bread","celebration","snack"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 cups flour<br>• 1 cup warm milk<br>• 1/4 cup sugar<br>• 1/4 cup butter, melted<br>• 2 tsp yeast<br>• 1 tsp cardamom<br>• 1/2 tsp salt<br>• 1 tsp black sesame seeds<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dissolve yeast and sugar in warm milk. Sit 5 min.<br>2. Mix flour, cardamom, salt. Add milk mixture and butter.<br>3. Knead 10 min. Let rise 1 hr.<br>4. Shape into round loaf. Decorate with patterns.<br>5. Brush with butter, sprinkle sesame seeds.<br>6. Bake at 350°F 30 min. Traditional celebration bread.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr 15 min | Cook: 30 min | 🍴 Servings: 8"
+    },
+    {
+      "name": "Dabo Kolo",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","snack","vegan","spicy"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups all-purpose flour<br>• 1/2 cup water<br>• 2 tbsp berbere<br>• 1/4 cup oil<br>• 1 tsp salt<br>• 1 tsp sugar<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, berbere, salt, sugar.<br>2. Add oil and water to form stiff dough.<br>3. Knead 5 min. Roll into long ropes.<br>4. Cut into small bite-sized pieces.<br>5. Deep fry at 350°F until golden and crispy.<br>6. Drain on paper towels. Cool before storing.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 15 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Kolo",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","barley","snack","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups barley grains<br>• 1 tsp salt<br>• 1 tbsp niter kibbeh<br>• 1 tsp berbere (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Rinse and soak barley 30 min. Drain.<br>2. Dry roast in pan on medium heat, stirring.<br>3. Roast until golden and crackling (15 min).<br>4. Drizzle with niter kibbeh and berbere. Toss.<br>5. Cool and serve as a crunchy snack.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 35 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Berbere",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","spice","seasoning","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 10 dried chilies, seeded<br>• 2 tbsp cumin seeds<br>• 1 tbsp coriander seeds<br>• 1 tsp fenugreek seeds<br>• 1 tsp black peppercorns<br>• 1 tsp cardamom seeds<br>• 4 cloves<br>• 1 tsp ginger powder<br>• 1 tsp garlic powder<br>• 1 tsp salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Toast all dry spices 2-3 min until fragrant.<br>2. Cool completely. Grind into fine powder.<br>3. Mix in ginger powder, garlic powder, salt.<br>4. Store airtight. Base spice for Ethiopian dishes.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 5 min | 🍴 Yield: 1 cup"
+    },
+    {
+      "name": "Niter Kibbeh",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","butter","spice","condiment"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb unsalted butter<br>• 1 onion, sliced<br>• 3 cloves garlic<br>• 1 tbsp ginger, sliced<br>• 1 tsp cumin seeds<br>• 1 tsp cardamom seeds<br>• 1 tsp fenugreek seeds<br>• 1 cinnamon stick<br>• 2 cloves<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Melt butter on low heat.<br>2. Add all ingredients. Simmer 30 min (don't boil).<br>3. Skim off milk solids that rise.<br>4. Strain through cheesecloth into a jar.<br>5. Refrigerate up to 3 months.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 30 min | 🍴 Yield: ~1.5 cups"
+    },
+    {
+      "name": "Awaze",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","spice","paste","condiment","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 cup berbere<br>• 1/2 cup red wine or water<br>• 2 tbsp oil<br>• 1 tbsp garlic, minced<br>• 1 tsp ginger, grated<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix berbere with wine to form a paste.<br>2. Heat oil. Sauté garlic and ginger.<br>3. Add berbere paste. Cook 5 min on low.<br>4. Season with salt. Cool.<br>5. Use as dipping sauce for kitfo or tibs.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 5 min | 🍴 Yield: 1 cup"
+    },
+    {
+      "name": "Key Wot",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beef","stew","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb beef chuck, cubed<br>• 1 cup berbere<br>• 2 large onions, finely diced<br>• 1/4 cup niter kibbeh<br>• 4 cloves garlic, minced<br>• 1 tbsp ginger<br>• 2 cups beef broth<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dry sauté onions until deeply browned (20 min).<br>2. Add niter kibbeh, berbere, garlic, ginger. Cook 5 min.<br>3. Add beef, brown on all sides.<br>4. Add broth, bring to boil. Reduce heat.<br>5. Cover, simmer 1.5 hrs until beef is tender.<br>6. Season with salt. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 2 hrs | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Ye'beg Wot",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","lamb","stew","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb lamb shoulder, cubed<br>• 3/4 cup berbere<br>• 2 onions, finely diced<br>• 1/4 cup niter kibbeh<br>• 4 cloves garlic<br>• 1 tbsp ginger<br>• 2 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dry sauté onions until caramelized (15 min).<br>2. Add niter kibbeh, berbere. Cook 5 min.<br>3. Add lamb, brown on all sides.<br>4. Add garlic, ginger, water. Bring to boil.<br>5. Cover, simmer 1.5-2 hrs until lamb is tender.<br>6. Season with salt. Serve with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 2 hrs | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Asa Wot",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","fish","stew","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb tilapia fillets<br>• 1/2 cup berbere<br>• 1 onion, diced<br>• 1/4 cup niter kibbeh<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 2 tomatoes, blended<br>• 1 cup water<br>• Lemon juice, salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate fish in lemon juice and salt 15 min.<br>2. Sauté onions in niter kibbeh until golden.<br>3. Add berbere, garlic, ginger. Cook 3 min.<br>4. Add tomatoes and water. Simmer 10 min.<br>5. Gently add fish. Cover, cook 15 min on low.<br>6. Serve with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Dorho Wot",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","chicken","stew","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 whole chicken, cut up<br>• 1 cup berbere<br>• 2 onions, finely diced<br>• 1/2 cup niter kibbeh<br>• 4 cloves garlic<br>• 1 tbsp ginger<br>• 1 tsp cardamom<br>• 4 hard-boiled eggs<br>• 2 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Caramelize onions dry (20 min).<br>2. Add niter kibbeh, berbere, garlic, ginger. Cook 5 min.<br>3. Add chicken, brown 10 min.<br>4. Add water, cardamom. Boil, then simmer 45 min.<br>5. Add eggs. Simmer 10 more min.<br>6. Season with salt. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 1 hr 30 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Sega Wot",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beef","curry","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb beef brisket, cubed<br>• 1 cup berbere<br>• 2 onions, diced<br>• 1/4 cup niter kibbeh<br>• 4 garlic cloves<br>• 1 tbsp ginger<br>• 2 cups beef broth<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Caramelize onions dry until dark (20 min).<br>2. Add niter kibbeh, berbere, garlic, ginger. Stir 5 min.<br>3. Add beef, brown all sides.<br>4. Add broth. Simmer 2 hrs on low until fork-tender.<br>5. Season with salt. Serve with injera or rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 2 hrs 30 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Zilzil Tibs",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beef","strips","sauteed","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb beef sirloin, thin strips<br>• 2 tbsp niter kibbeh<br>• 2 tbsp berbere<br>• 1 onion, sliced<br>• 1 bell pepper, sliced<br>• 3 garlic cloves<br>• 1 tsp ginger<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Season beef with berbere and salt.<br>2. Heat niter kibbeh over high heat. Sear beef 1-2 min per side. Remove.<br>3. Sauté onions, pepper, garlic, ginger in same pan.<br>4. Return beef, toss together. Cook 1 min.<br>5. Serve immediately with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Bozena Shiro",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","shiro","beef","stew","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb beef, cubed small<br>• 1.5 cups chickpea flour (shiro)<br>• 1 onion, diced<br>• 1/4 cup berbere<br>• 1/4 cup oil<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 3 cups water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil. Add beef, brown.<br>2. Add berbere, garlic, ginger. Cook 3 min.<br>3. Add water, bring to boil.<br>4. Whisk in chickpea flour slowly to avoid lumps.<br>5. Simmer 25 min until thick. Season with salt.<br>6. Serve over injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 40 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Fitfit",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","injera","salad","spicy","breakfast"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 pieces injera, torn<br>• 1/2 cup berbere sauce<br>• 1/4 cup niter kibbeh<br>• 1 onion, chopped<br>• 2 tomatoes, diced<br>• 1 green chili<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix berbere sauce and niter kibbeh.<br>2. Add torn injera. Toss to coat.<br>3. Add onion, tomatoes, chili. Mix well with hands.<br>4. Let sit 5 min. Serve for breakfast or lunch.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Defo Dabo",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","bread","steamed","snack","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 cups all-purpose flour<br>• 1 cup warm water<br>• 2 tbsp sugar<br>• 1 tbsp yeast<br>• 1 tsp salt<br>• 2 tbsp oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dissolve yeast and sugar in warm water. Sit 5 min.<br>2. Mix flour, salt. Add yeast mixture and oil. Knead 10 min.<br>3. Let rise 1 hr. Punch down, shape into round loaf.<br>4. Place in steamer basket. Steam 40 min.<br>5. Bread should be fluffy and spongy. Serve warm.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr 15 min | Cook: 40 min | 🍴 Servings: 6-8"
+    },
+    {
+      "name": "Ethiopian Coffee Ceremony",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","coffee","drink","ceremony"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup green coffee beans<br>• 3 cups water<br>• Sugar or cardamom (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Wash green coffee beans. Roast in pan until dark and aromatic.<br>2. Grind with mortar and pestle.<br>3. Add ground coffee to jebena (clay pot) with water. Boil.<br>4. Let settle, pour into cup and back to strain (repeat 3 times).<br>5. Pour into small cups. 3 rounds: abol, tona, baraka.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 3-6"
+    },
+    {
+      "name": "Tej",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","honey","wine","drink"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 cups honey<br>• 8 cups water<br>• 1 packet wine yeast<br>• 1 cup gesho leaves<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Warm honey and water to dissolve honey. Cool.<br>2. Add yeast and gesho leaves.<br>3. Ferment in vessel with airlock 2-3 weeks.<br>4. Strain and bottle. Age at least 1 month.<br>5. Serve chilled. Traditional Ethiopian honey wine.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Ferment: 3-4 weeks | 🍴 Yield: 1 gallon"
+    },
+    {
+      "name": "Tella",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","beer","drink"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs barley malt<br>• 1 cup gesho leaves<br>• 1 cup ground corn or millet<br>• 1 tbsp yeast<br>• 1 gallon water<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Toast barley malt until golden. Grind coarsely.<br>2. Boil with water 1 hr. Add gesho leaves, steep 30 min.<br>3. Strain into fermentation vessel. Cool.<br>4. Add yeast and ground corn. Ferment 5-7 days.<br>5. Strain and serve. Traditional Ethiopian beer.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr | Ferment: 5-7 days | 🍴 Yield: 1 gallon"
+    },
+    {
+      "name": "Anchotte",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","vegetable","stew","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb potatoes, cubed<br>• 1 onion, diced<br>• 3 tbsp oil<br>• 2 tomatoes, blended<br>• 1 tsp turmeric<br>• 1 tsp cumin<br>• 3 garlic cloves<br>• 1 cup water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until soft.<br>2. Add turmeric, cumin, garlic. Cook 2 min.<br>3. Add tomatoes. Cook 5 min.<br>4. Add potatoes and water. Cover, simmer 20 min.<br>5. Season with salt. Serve as a mild side.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Mulukhiyah",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","greens","stew","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb jute leaves, chopped<br>• 1 onion, diced<br>• 3 tbsp niter kibbeh<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 1 green chili<br>• 1 cup water<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in niter kibbeh until golden.<br>2. Add garlic, ginger, chili. Cook 2 min.<br>3. Add chopped leaves, stir.<br>4. Add water, cover, simmer 15 min.<br>5. Season with salt. Serve with injera.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Injera",
+      "cuisine": "Ethiopian",
+      "tags": ["ethiopian","bread","fermented","vegan","staple"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups teff flour<br>• 3 cups water<br>• 1/4 tsp salt<br>• 1/2 tsp yeast (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix teff flour with water to thin batter.<br>2. Cover, ferment 2-3 days at room temp until sour.<br>3. Stir in salt. Batter should be crepe-like consistency.<br>4. Heat non-stick pan. Pour ladle of batter, swirl thinly.<br>5. Do NOT flip. Cover, cook 1-2 min until holes form.<br>6. Remove and cool. Foundation of every Ethiopian meal.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min + 2-3 days | Cook: 3 min each | 🍴 Yield: 6-8 pieces"
+    },
+    {
+      "name": "Classic Burger",
+      "cuisine": "American",
+      "tags": ["american","beef","burger","grill","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb ground beef (80/20)<br>• 4 burger buns<br>• 4 slices cheese<br>• Lettuce, tomato, onion<br>• Ketchup, mustard, mayo<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Divide beef into 4 patties. Season with salt and pepper. Make indent in center.<br>2. Grill or pan-sear over high heat 3-4 min per side.<br>3. Top with cheese last minute, cover to melt.<br>4. Toast buns. Assemble with toppings and condiments.<br>5. Serve with fries.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 8 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Mac and Cheese",
+      "cuisine": "American",
+      "tags": ["american","pasta","cheese","comfort","main","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb elbow macaroni<br>• 4 tbsp butter<br>• 1/4 cup flour<br>• 3 cups milk<br>• 2 cups cheddar, shredded<br>• 1 cup mozzarella<br>• 1/2 cup breadcrumbs<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook macaroni al dente. Drain.<br>2. Melt butter, whisk in flour until golden (2 min).<br>3. Gradually whisk in milk. Simmer until thickened.<br>4. Remove from heat. Stir in cheeses until melted.<br>5. Season with salt and pepper.<br>6. Mix sauce with macaroni. Pour into baking dish. Top with breadcrumbs.<br>7. Bake at 375°F 20 min until bubbly.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 6-8"
+    },
+    {
+      "name": "BBQ Ribs",
+      "cuisine": "American",
+      "tags": ["american","pork","ribs","bbq","grill","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 racks pork baby back ribs<br>• 1/4 cup brown sugar<br>• 2 tbsp paprika<br>• 1 tbsp garlic powder<br>• 1 tbsp onion powder<br>• 1 tsp cayenne<br>• 2 cups BBQ sauce<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Remove membrane from ribs.<br>2. Mix dry rub, coat ribs. Wrap in foil.<br>3. Bake at 275°F for 2.5 hrs.<br>4. Unwrap, brush with BBQ sauce.<br>5. Grill or broil 5 min per side until caramelized.<br>6. Let rest 10 min before cutting.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 2 hrs 40 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Buffalo Wings",
+      "cuisine": "American",
+      "tags": ["american","chicken","wings","spicy","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs chicken wings<br>• 1/2 cup hot sauce<br>• 1/4 cup melted butter<br>• 1 tbsp vinegar<br>• 1 tsp garlic powder<br>• Oil for frying<br>• Blue cheese dip<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Pat wings dry. Season with salt and garlic powder.<br>2. Deep fry at 375°F 10-12 min until golden.<br>3. Or bake at 425°F 45 min, turning once.<br>4. Mix hot sauce, butter, vinegar. Toss wings to coat.<br>5. Serve with blue cheese dip and celery.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 12-45 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Cornbread",
+      "cuisine": "American",
+      "tags": ["american","bread","side","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup cornmeal<br>• 1 cup all-purpose flour<br>• 1/2 cup sugar<br>• 1 tbsp baking powder<br>• 1/2 tsp salt<br>• 1 cup buttermilk<br>• 2 eggs<br>• 1/4 cup melted butter<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Preheat oven to 400°F. Grease 9-inch pan.<br>2. Mix dry ingredients. Whisk wet ingredients separately.<br>3. Combine until just mixed. Pour into pan.<br>4. Bake 20-25 min until golden. Serve warm with butter.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 8"
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "cuisine": "American",
+      "tags": ["american","dessert","cookie","chocolate","bake"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 1/4 cups flour<br>• 1 cup butter, softened<br>• 3/4 cup white sugar<br>• 3/4 cup brown sugar<br>• 2 eggs<br>• 1 tsp vanilla<br>• 1 tsp baking soda<br>• 1/2 tsp salt<br>• 2 cups chocolate chips<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cream butter with sugars until fluffy.<br>2. Beat in eggs and vanilla.<br>3. Mix flour, baking soda, salt. Add to butter mixture.<br>4. Stir in chocolate chips.<br>5. Drop rounded tablespoons onto baking sheets.<br>6. Bake at 375°F 9-11 min until golden edges, soft center.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 10 min per batch | 🍴 Yield: 36 cookies"
+    },
+    {
+      "name": "Apple Pie",
+      "cuisine": "American",
+      "tags": ["american","dessert","pie","apple","bake"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 pie crusts<br>• 6 cups apples, sliced<br>• 3/4 cup sugar<br>• 2 tbsp flour<br>• 1 tsp cinnamon<br>• 1/4 tsp nutmeg<br>• 1 tbsp lemon juice<br>• 2 tbsp butter<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Preheat oven to 425°F.<br>2. Mix apples with sugar, flour, cinnamon, nutmeg, lemon juice.<br>3. Fill pie crust with apple mixture. Dot with butter.<br>4. Top with second crust. Crimp edges, cut vents.<br>5. Bake 15 min at 425°F, then 350°F 35-40 min.<br>6. Cool completely. Serve with vanilla ice cream.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 25 min | Cook: 55 min | 🍴 Servings: 8"
+    },
+    {
+      "name": "Pancakes",
+      "cuisine": "American",
+      "tags": ["american","breakfast","pancakes","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 cups flour<br>• 3.5 tsp baking powder<br>• 1 tbsp sugar<br>• 1/4 tsp salt<br>• 1.25 cups milk<br>• 1 egg<br>• 3 tbsp melted butter<br>• Maple syrup<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, baking powder, sugar, salt.<br>2. Make a well. Add milk, egg, melted butter. Stir until just combined (lumps OK).<br>3. Heat griddle over medium heat. Lightly butter.<br>4. Pour 1/4 cup batter per pancake.<br>5. Cook until bubbles form (2-3 min). Flip, cook 1-2 min.<br>6. Serve with maple syrup and butter.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "French Toast",
+      "cuisine": "American",
+      "tags": ["american","breakfast","bread","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 6 slices thick bread<br>• 3 eggs<br>• 3/4 cup milk<br>• 1 tbsp sugar<br>• 1 tsp vanilla<br>• 1/2 tsp cinnamon<br>• Butter<br>• Maple syrup<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Whisk eggs, milk, sugar, vanilla, cinnamon.<br>2. Heat butter in pan over medium heat.<br>3. Dip bread in egg mixture 10 sec per side.<br>4. Cook 2-3 min per side until golden.<br>5. Serve with maple syrup, powdered sugar, berries.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 15 min | 🍴 Servings: 3"
+    },
+    {
+      "name": "Brownies",
+      "cuisine": "American",
+      "tags": ["american","dessert","chocolate","bake"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 cup butter<br>• 1 cup sugar<br>• 2 eggs<br>• 1 tsp vanilla<br>• 1/3 cup cocoa powder<br>• 1/2 cup flour<br>• 1/4 tsp salt<br>• 1/4 tsp baking powder<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Preheat oven to 350°F. Grease 8x8 pan.<br>2. Melt butter. Stir in sugar, eggs, vanilla.<br>3. Mix cocoa, flour, salt, baking powder. Add to wet.<br>4. Stir until just combined. Pour into pan.<br>5. Bake 20-25 min. Toothpick should have moist crumbs.<br>6. Cool completely. Serve with ice cream.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 9"
+    },
+    {
+      "name": "Pulled Pork Sandwich",
+      "cuisine": "American",
+      "tags": ["american","pork","bbq","sandwich","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3-4 lb pork shoulder<br>• 2 tbsp paprika<br>• 1 tbsp brown sugar<br>• 1 tbsp garlic powder<br>• 1 tsp cumin<br>• 1 cup BBQ sauce<br>• 1/2 cup apple cider vinegar<br>• Burger buns<br>• Coleslaw<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix dry rub. Coat pork. Rest 30 min.<br>2. Place pork in Dutch oven. Add BBQ sauce and vinegar.<br>3. Cover, cook at 300°F 3-4 hrs until fork-tender.<br>4. Shred with two forks. Mix with juices.<br>5. Serve on toasted buns with coleslaw.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 4 hrs | 🍴 Servings: 8-10"
+    },
+    {
+      "name": "Potato Salad",
+      "cuisine": "American",
+      "tags": ["american","potato","salad","side","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs potatoes, cubed<br>• 1/2 cup mayonnaise<br>• 2 tbsp mustard<br>• 2 hard-boiled eggs, chopped<br>• 1/2 onion, diced<br>• 2 celery stalks, diced<br>• 1 tbsp vinegar<br>• Salt, pepper, paprika<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Boil potatoes until tender. Drain and cool.<br>2. Mix mayo, mustard, vinegar, salt, pepper.<br>3. Combine potatoes, eggs, onion, celery.<br>4. Toss with dressing. Refrigerate 1 hr.<br>5. Sprinkle with paprika before serving.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 20 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Coleslaw",
+      "cuisine": "American",
+      "tags": ["american","cabbage","salad","side","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 head green cabbage, shredded<br>• 2 carrots, grated<br>• 1/2 cup mayonnaise<br>• 2 tbsp apple cider vinegar<br>• 1 tbsp sugar<br>• 1 tsp celery seeds<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Shred cabbage. Grate carrots.<br>2. Whisk mayo, vinegar, sugar, celery seeds, salt, pepper.<br>3. Toss dressing with vegetables.<br>4. Refrigerate 1 hr before serving.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 0 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Clam Chowder",
+      "cuisine": "American",
+      "tags": ["american","clam","soup","seafood","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cans chopped clams<br>• 4 slices bacon, diced<br>• 1 onion, diced<br>• 2 potatoes, cubed<br>• 2 cups heavy cream<br>• 1 cup milk<br>• 2 tbsp butter<br>• 2 tbsp flour<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook bacon until crispy. Remove.<br>2. Sauté onions in bacon fat.<br>3. Add butter and flour, make roux (2 min).<br>4. Whisk in clam juice, then milk and cream.<br>5. Add potatoes. Simmer 15 min until tender.<br>6. Add clams and bacon. Season. Serve in bread bowls.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Meatloaf",
+      "cuisine": "American",
+      "tags": ["american","beef","pork","comfort","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 lbs ground beef<br>• 1/2 lb ground pork<br>• 1 cup breadcrumbs<br>• 1 onion, diced<br>• 2 eggs<br>• 1/4 cup ketchup<br>• 2 tbsp Worcestershire sauce<br>• 1 tsp garlic powder<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix all ingredients in a bowl until combined.<br>2. Shape into a loaf on a baking sheet.<br>3. Top with extra ketchup.<br>4. Bake at 350°F for 1 hr.<br>5. Let rest 10 min before slicing.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 1 hr | 🍴 Servings: 6-8"
+    },
+    {
+      "name": "Classic Pizza",
+      "cuisine": "Italian",
+      "tags": ["italian","pizza","cheese","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2.5 cups flour<br>• 1 cup warm water<br>• 2 tsp yeast<br>• 1 tsp sugar<br>• 1 tsp salt<br>• 2 tbsp olive oil<br>• 1/2 cup tomato sauce<br>• 2 cups mozzarella<br>• Toppings of choice<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dissolve yeast and sugar in warm water. Sit 5 min.<br>2. Mix flour, salt. Add yeast mixture and oil. Knead 10 min.<br>3. Let rise 1 hr. Roll out dough.<br>4. Top with sauce, cheese, toppings.<br>5. Bake at 475°F 12-15 min until crust is golden.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr 15 min | Cook: 15 min | 🍴 Servings: 2-4"
+    },
+    {
+      "name": "Pasta Carbonara",
+      "cuisine": "Italian",
+      "tags": ["italian","pasta","bacon","egg","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb spaghetti<br>• 6 oz guanciale or pancetta<br>• 4 egg yolks<br>• 2 whole eggs<br>• 1 cup pecorino romano, grated<br>• 1 cup parmesan<br>• Black pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook spaghetti al dente. Reserve 1 cup pasta water.<br>2. Fry guanciale until crispy.<br>3. Whisk eggs with cheeses and pepper.<br>4. Toss hot pasta with guanciale and fat.<br>5. Add egg mixture off heat, tossing constantly. Add pasta water as needed.<br>6. Serve immediately with extra cheese.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Lasagna",
+      "cuisine": "Italian",
+      "tags": ["italian","pasta","beef","cheese","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 12 lasagna noodles<br>• 1 lb ground beef<br>• 2 cups ricotta<br>• 3 cups mozzarella<br>• 1 cup parmesan<br>• 3 cups marinara sauce<br>• 1 egg<br>• 1 onion, diced<br>• 3 garlic cloves<br>• Salt, pepper, Italian herbs<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook noodles. Brown beef with onion and garlic.<br>2. Mix ricotta with egg, salt, herbs.<br>3. Layer: sauce, noodles, ricotta, beef, mozzarella. Repeat.<br>4. Top with parmesan. Cover with foil.<br>5. Bake at 375°F 45 min. Uncover, bake 15 more min.<br>6. Rest 10 min before cutting.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 1 hr | 🍴 Servings: 8"
+    },
+    {
+      "name": "Margherita Pizza",
+      "cuisine": "Italian",
+      "tags": ["italian","pizza","tomato","mozzarella","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• Pizza dough<br>• 1/2 cup crushed San Marzano tomatoes<br>• 8 oz fresh mozzarella, sliced<br>• Fresh basil leaves<br>• 2 tbsp olive oil<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Stretch dough into round.<br>2. Spread crushed tomatoes. Season with salt.<br>3. Arrange mozzarella slices on top.<br>4. Bake at highest temp (500°F+) 8-10 min.<br>5. Top with fresh basil and olive oil. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Bruschetta",
+      "cuisine": "Italian",
+      "tags": ["italian","bread","tomato","appetizer","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 baguette, sliced<br>• 4 ripe tomatoes, diced<br>• 2 garlic cloves<br>• 1/4 cup basil, chopped<br>• 3 tbsp olive oil<br>• 1 tbsp balsamic vinegar<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Toast baguette slices until golden. Rub with garlic.<br>2. Mix diced tomatoes, basil, olive oil, vinegar, salt, pepper.<br>3. Top each toast with tomato mixture.<br>4. Serve immediately as an appetizer.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 5 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Risotto",
+      "cuisine": "Italian",
+      "tags": ["italian","rice","cream","main","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 cups arborio rice<br>• 4 cups warm broth<br>• 1/2 cup white wine<br>• 1 onion, finely diced<br>• 3 tbsp butter<br>• 1/2 cup parmesan<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onion in butter until soft.<br>2. Add rice, toast 2 min until translucent edges.<br>3. Add wine, stir until absorbed.<br>4. Add broth one ladle at a time, stirring constantly.<br>5. Continue 18-20 min until rice is creamy and al dente.<br>6. Stir in parmesan and remaining butter. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Tiramisu",
+      "cuisine": "Italian",
+      "tags": ["italian","dessert","coffee","no-bake"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 6 egg yolks<br>• 3/4 cup sugar<br>• 1.25 cups mascarpone<br>• 2 cups heavy cream<br>• 2 cups strong espresso, cooled<br>• 3 tbsp coffee liqueur (optional)<br>• 30 ladyfinger cookies<br>• Cocoa powder<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Whisk yolks and sugar until thick. Add mascarpone.<br>2. Whip cream to stiff peaks. Fold into mascarpone mixture.<br>3. Mix espresso with liqueur. Dip ladyfingers briefly.<br>4. Layer dipped ladyfingers and cream mixture in dish.<br>5. Refrigerate at least 6 hours or overnight.<br>6. Dust with cocoa powder before serving.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Chill: 6+ hrs | 🍴 Servings: 8-10"
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "cuisine": "Italian",
+      "tags": ["italian","pasta","cream","cheese","main","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb fettuccine<br>• 1/2 cup butter<br>• 2 cups heavy cream<br>• 2 cups parmesan, grated<br>• 4 garlic cloves, minced<br>• Salt, pepper, nutmeg<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook fettuccine al dente. Reserve 1 cup pasta water.<br>2. Melt butter in pan. Sauté garlic until fragrant.<br>3. Add cream. Simmer 3 min.<br>4. Off heat, whisk in parmesan until smooth.<br>5. Toss with pasta. Add pasta water if needed.<br>6. Season with salt, pepper, nutmeg. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Chicken Parmesan",
+      "cuisine": "Italian",
+      "tags": ["italian","chicken","cheese","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 chicken breasts<br>• 1 cup breadcrumbs<br>• 1/2 cup parmesan<br>• 1 cup mozzarella<br>• 1 cup marinara sauce<br>• 2 eggs<br>• 1/2 cup flour<br>• Salt, pepper, Italian herbs<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Pound chicken to even thickness. Season.<br>2. Bread: flour, egg, breadcrumbs mixed with parmesan.<br>3. Fry in oil 3-4 min per side until golden.<br>4. Top with marinara and mozzarella.<br>5. Bake at 400°F 15 min until cheese melts and bubbly.<br>6. Serve with pasta.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Penne Arrabbiata",
+      "cuisine": "Italian",
+      "tags": ["italian","pasta","tomato","spicy","vegan","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb penne<br>• 2 cans crushed tomatoes<br>• 4 garlic cloves, sliced<br>• 2 dried chilies<br>• 1/4 cup olive oil<br>• Fresh parsley<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook penne al dente.<br>2. Heat olive oil. Sauté garlic and chilies until garlic is golden.<br>3. Add crushed tomatoes. Simmer 15 min.<br>4. Remove chilies. Season with salt.<br>5. Toss with pasta. Garnish with parsley.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Minestrone Soup",
+      "cuisine": "Italian",
+      "tags": ["italian","soup","vegetable","vegan","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 onion, diced<br>• 2 carrots, diced<br>• 2 celery stalks, diced<br>• 2 zucchini, cubed<br>• 1 can diced tomatoes<br>• 1 can cannellini beans<br>• 1 cup small pasta<br>• 4 cups vegetable broth<br>• 2 garlic cloves<br>• 2 tbsp olive oil<br>• Salt, pepper, Italian herbs<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onion, carrots, celery in olive oil (10 min).<br>2. Add garlic, zucchini. Cook 3 min.<br>3. Add tomatoes, broth, herbs. Simmer 20 min.<br>4. Add pasta and beans. Cook until pasta is tender.<br>5. Season with salt and pepper. Serve with parmesan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 35 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Caprese Salad",
+      "cuisine": "Italian",
+      "tags": ["italian","salad","tomato","mozzarella","vegetarian","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 ripe tomatoes, sliced<br>• 8 oz fresh mozzarella, sliced<br>• Fresh basil leaves<br>• 3 tbsp olive oil<br>• 1 tbsp balsamic vinegar<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Alternate slices of tomato and mozzarella on a plate.<br>2. Tuck basil leaves between slices.<br>3. Drizzle with olive oil and balsamic vinegar.<br>4. Season with salt and pepper. Serve at room temp.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Osso Buco",
+      "cuisine": "Italian",
+      "tags": ["italian","veal","braised","main","stew"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 veal shanks<br>• 1 cup flour<br>• 1 onion, diced<br>• 2 carrots, diced<br>• 2 celery stalks<br>• 1 cup white wine<br>• 2 cups beef broth<br>• 1 can diced tomatoes<br>• 2 garlic cloves<br>• Gremolata: lemon zest, parsley, garlic<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dredge veal in flour. Brown in oil.<br>2. Sauté vegetables. Add wine, reduce.<br>3. Add tomatoes, broth. Return veal.<br>4. Cover, simmer 2 hrs until tender.<br>5. Make gremolata: mix lemon zest, parsley, garlic.<br>6. Serve over risotto or polenta. Top with gremolata.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 2 hrs | 🍴 Servings: 4"
+    },
+    {
+      "name": "Cannoli",
+      "cuisine": "Italian",
+      "tags": ["italian","dessert","pastry","ricotta"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups flour<br>• 2 tbsp sugar<br>• 2 tbsp butter<br>• 1 egg<br>• 1/2 cup sweet Marsala wine<br>• Oil for frying<br><br><b>FILLING:</b><br>• 2 cups ricotta, drained<br>• 1/2 cup powdered sugar<br>• 1 tsp vanilla<br>• 1/2 cup chocolate chips<br>• Pistachios, chopped<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Make dough: mix flour, sugar, butter, egg, wine. Knead, rest 30 min.<br>2. Roll thin, cut into circles. Wrap around cannoli tubes.<br>3. Fry at 375°F until golden. Cool.<br>4. Mix filling ingredients. Pipe into shells.<br>5. Dip ends in pistachios. Dust with powdered sugar.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 45 min | Cook: 15 min | 🍴 Servings: 12-15"
+    },
+    {
+      "name": "Chicken Tacos",
+      "cuisine": "Mexican",
+      "tags": ["mexican","chicken","tacos","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb chicken thighs<br>• 8 corn tortillas<br>• 1 onion, diced<br>• 1/2 cup cilantro, chopped<br>• 2 limes<br>• 1 tsp cumin<br>• 1 tsp chili powder<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Season chicken with cumin, chili, salt, pepper. Grill until cooked.<br>2. Let rest, then chop into small pieces.<br>3. Warm tortillas on the grill.<br>4. Fill tortillas with chicken, onion, cilantro.<br>5. Squeeze lime juice over. Serve with salsa.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Guacamole",
+      "cuisine": "Mexican",
+      "tags": ["mexican","avocado","dip","vegan","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 ripe avocados<br>• 1 lime, juiced<br>• 1/2 onion, diced<br>• 1 jalapeno, minced<br>• 1/4 cup cilantro, chopped<br>• 1 tomato, diced<br>• Salt to taste<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Halve avocados, remove pit. Scoop into bowl.<br>2. Mash to desired consistency.<br>3. Mix in lime juice, onion, jalapeno, cilantro, tomato.<br>4. Season with salt. Serve with chips.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Burritos",
+      "cuisine": "Mexican",
+      "tags": ["mexican","beef","rice","beans","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb ground beef<br>• 4 large flour tortillas<br>• 1 cup cooked rice<br>• 1 can black beans<br>• 1 cup shredded cheese<br>• 1 onion, diced<br>• 2 tbsp taco seasoning<br>• Sour cream, salsa<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Brown beef with onion and taco seasoning.<br>2. Warm tortillas. Layer rice, beans, beef, cheese.<br>3. Fold sides in, roll tightly.<br>4. Toast in dry pan until golden.<br>5. Serve with sour cream and salsa.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Enchiladas",
+      "cuisine": "Mexican",
+      "tags": ["mexican","chicken","cheese","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 8 corn tortillas<br>• 2 cups cooked chicken, shredded<br>• 2 cups enchilada sauce<br>• 2 cups shredded cheese<br>• 1/2 cup sour cream<br>• 1 onion, diced<br>• Cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix chicken with sour cream, onion, half the cheese.<br>2. Soften tortillas in microwave.<br>3. Fill each tortilla with chicken mixture. Roll up.<br>4. Place seam-down in baking dish. Cover with sauce and remaining cheese.<br>5. Bake at 375°F 20 min until bubbly. Garnish with cilantro.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Quesadillas",
+      "cuisine": "Mexican",
+      "tags": ["mexican","tortilla","cheese","vegetarian","snack"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 flour tortillas<br>• 2 cups shredded cheese (cheddar or Oaxaca)<br>• 1 bell pepper, sliced<br>• 1 onion, sliced<br>• 1 jalapeno, sliced<br>• Sour cream, salsa<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté peppers, onion, jalapeno until soft.<br>2. Place tortilla in pan. Add cheese, vegetables, more cheese.<br>3. Top with second tortilla.<br>4. Cook until golden on each side, cheese melted.<br>5. Cut into wedges. Serve with sour cream and salsa.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 2-4"
+    },
+    {
+      "name": "Churros",
+      "cuisine": "Mexican",
+      "tags": ["mexican","dessert","fried","cinnamon"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup water<br>• 1/2 cup butter<br>• 1/4 cup sugar<br>• 1 cup flour<br>• 3 eggs<br>• 1 tsp vanilla<br>• Oil for frying<br>• Cinnamon-sugar for coating<br>• Chocolate sauce for dipping<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Boil water, butter, sugar. Add flour all at once, stir vigorously.<br>2. Cool slightly. Beat in eggs one at a time. Add vanilla.<br>3. Pipe dough into hot oil using star tip.<br>4. Fry until golden (3-4 min). Drain.<br>5. Roll in cinnamon-sugar. Serve with chocolate sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 15 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Chilaquiles",
+      "cuisine": "Mexican",
+      "tags": ["mexican","tortilla","breakfast","spicy"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 10 corn tortillas, cut into strips<br>• 2 cups salsa verde<br>• 2 eggs<br>• 1/2 cup crema or sour cream<br>• 1/2 cup crumbled queso fresco<br>• 1 onion, sliced<br>• Oil for frying<br>• Cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Fry tortilla strips until crispy.<br>2. Heat salsa verde in a pan.<br>3. Add fried strips to salsa. Toss to coat (30 sec - don't let get soggy).<br>4. Fry eggs sunny-side up.<br>5. Serve chilaquiles topped with egg, crema, queso, onion, cilantro.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Pozole",
+      "cuisine": "Mexican",
+      "tags": ["mexican","pork","hominy","soup","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb pork shoulder, cubed<br>• 2 cans hominy, drained<br>• 1 onion, diced<br>• 4 garlic cloves<br>• 2 dried guajillo chilies<br>• 1 tsp cumin<br>• 6 cups chicken broth<br>• Toppings: cabbage, radish, lime, oregano<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Simmer pork in broth with onion, garlic (1 hr).<br>2. Toast guajillo chilies, soak, blend into paste.<br>3. Add chili paste, cumin, hominy to pot.<br>4. Simmer 30 more min until pork is tender.<br>5. Serve with shredded cabbage, sliced radish, lime, oregano.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 1 hr 30 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Tres Leches Cake",
+      "cuisine": "Mexican",
+      "tags": ["mexican","dessert","cake","milk","bake"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup flour<br>• 1.5 tsp baking powder<br>• 1/4 tsp salt<br>• 5 eggs, separated<br>• 1 cup sugar<br>• 1 tsp vanilla<br>• 1/3 cup milk<br><br><b>THREE MILKS:</b><br>• 1 can evaporated milk<br>• 1 can sweetened condensed milk<br>• 1 cup heavy cream<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Beat egg whites with 3/4 cup sugar until stiff peaks.<br>2. Beat yolks with remaining sugar, vanilla, milk.<br>3. Fold in flour mixture. Fold in egg whites.<br>4. Bake at 350°F 25-30 min. Cool.<br>5. Mix three milks. Pour over cooled cake.<br>6. Refrigerate at least 4 hrs. Top with whipped cream.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Bake: 30 min + 4 hrs chill | 🍴 Servings: 10"
+    },
+    {
+      "name": "Tamales",
+      "cuisine": "Mexican",
+      "tags": ["mexican","corn","pork","steamed","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups masa harina<br>• 1 cup lard or shortening<br>• 1.5 cups broth<br>• 1 tsp baking powder<br>• 1 tsp salt<br>• Dried corn husks<br>• 1 lb pork, cooked and shredded<br>• 1 cup red chili sauce<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak corn husks in warm water until soft.<br>2. Beat lard until fluffy. Mix masa, broth, baking powder, salt into dough.<br>3. Spread dough on husk. Add pork and chili sauce.<br>4. Fold sides in, fold up bottom. Steam upright 1 hr.<br>5. Dough should pull away from husk when done.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 45 min | Cook: 1 hr | 🍴 Servings: 12-15"
+    },
+    {
+      "name": "Elote",
+      "cuisine": "Mexican",
+      "tags": ["mexican","corn","street food","vegetarian","snack"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 ears corn, husked<br>• 1/2 cup mayonnaise<br>• 1/2 cup cotija cheese, crumbled<br>• 1 tsp chili powder<br>• 1 lime<br>• Cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Grill or boil corn until charred and tender.<br>2. Brush with mayonnaise.<br>3. Sprinkle with cotija cheese and chili powder.<br>4. Squeeze lime juice over. Garnish with cilantro.<br>5. Serve on a stick. Mexican street corn!<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Margarita",
+      "cuisine": "Mexican",
+      "tags": ["mexican","cocktail","drink","tequila"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 oz tequila<br>• 1 oz lime juice<br>• 1 oz triple sec<br>• 1/2 oz agave syrup<br>• Ice<br>• Salt for rim<br>• Lime wheel<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Rub lime wedge on rim of glass. Dip in salt.<br>2. Fill shaker with ice. Add tequila, lime juice, triple sec, agave.<br>3. Shake vigorously 15 sec.<br>4. Strain into prepared glass over fresh ice.<br>5. Garnish with lime wheel.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 0 min | 🍴 Servings: 1"
+    },
+    {
+      "name": "Chicken Curry",
+      "cuisine": "Indian",
+      "tags": ["indian","chicken","curry","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs chicken, cut up<br>• 2 onions, diced<br>• 3 tomatoes, blended<br>• 4 garlic cloves<br>• 1 tbsp ginger<br>• 2 tsp cumin<br>• 2 tsp coriander<br>• 1 tsp turmeric<br>• 1 tsp chili powder<br>• 1/2 cup yogurt<br>• 3 tbsp oil<br>• Salt, cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until golden.<br>2. Add garlic, ginger, spices. Cook 2 min.<br>3. Add tomatoes. Cook until oil separates.<br>4. Add chicken. Brown on all sides.<br>5. Add yogurt, cover. Simmer 25 min until chicken is cooked.<br>6. Garnish with cilantro. Serve with rice or naan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 35 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Butter Chicken",
+      "cuisine": "Indian",
+      "tags": ["indian","chicken","creamy","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 lbs chicken thighs<br>• 2 tbsp butter<br>• 1 cup heavy cream<br>• 1 cup tomato puree<br>• 1 onion, diced<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 2 tsp garam masala<br>• 1 tsp cumin<br>• 1 tsp turmeric<br>• 1 tsp chili powder<br>• Salt, cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate chicken in yogurt and spices 1 hr. Grill or bake until charred. Cut into pieces.<br>2. Sauté onion in butter. Add garlic, ginger, garam masala.<br>3. Add tomato puree. Simmer 10 min.<br>4. Add cream and chicken. Simmer 10 more min.<br>5. Season with salt. Garnish with cilantro and more butter. Serve with naan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr + 15 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Biryani",
+      "cuisine": "Indian",
+      "tags": ["indian","rice","chicken","spiced","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups basmati rice<br>• 1 lb chicken, cubed<br>• 2 onions, sliced<br>• 1/2 cup yogurt<br>• 2 tsp biryani masala<br>• 1 tsp turmeric<br>• Saffron soaked in milk<br>• 4 cups water<br>• Ghee, salt, cilantro<br>• Whole spices: cardamom, cloves, cinnamon<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate chicken in yogurt and spices 30 min.<br>2. Fry onions in ghee until crispy. Set aside.<br>3. Layer in pot: rice, chicken, onions, saffron milk. Repeat.<br>4. Add water. Bring to boil. Cover tightly.<br>5. Cook on low 25 min. Let rest 5 min.<br>6. Gently fluff. Serve with raita.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 40 min | Cook: 30 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Palak Paneer",
+      "cuisine": "Indian",
+      "tags": ["indian","spinach","paneer","vegetarian","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 8 oz paneer, cubed<br>• 1 lb spinach<br>• 1 onion, diced<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 2 green chilies<br>• 1 tsp cumin<br>• 1 tsp garam masala<br>• 1/2 cup cream<br>• 2 tbsp ghee<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Blanch spinach. Blend into smooth puree.<br>2. Sauté onion in ghee. Add garlic, ginger, chilies.<br>3. Add cumin, garam masala. Cook 1 min.<br>4. Add spinach puree. Simmer 10 min.<br>5. Add cream and paneer. Cook 5 more min.<br>6. Season with salt. Serve with naan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 20 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Dal Makhani",
+      "cuisine": "Indian",
+      "tags": ["indian","lentil","creamy","vegetarian","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup black lentils (urad dal)<br>• 1/4 cup kidney beans<br>• 1 onion, diced<br>• 3 tomatoes, blended<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 2 tsp cumin<br>• 1 tsp chili powder<br>• 1/4 cup cream<br>• 3 tbsp butter<br>• Salt, cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak lentils and beans overnight. Boil until soft.<br>2. Sauté onion in butter. Add garlic, ginger, spices.<br>3. Add tomato puree. Cook until thick.<br>4. Add cooked lentils. Simmer 30 min.<br>5. Stir in cream. Season with salt.<br>6. Garnish with butter and cilantro. Serve with naan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 8 hrs soaking | Cook: 1 hr | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Rogan Josh",
+      "cuisine": "Indian",
+      "tags": ["indian","lamb","curry","kashmiri","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs lamb, cubed<br>• 2 onions, diced<br>• 1 cup yogurt<br>• 2 tbsp ginger-garlic paste<br>• 2 tsp Kashmiri chili powder<br>• 1 tsp cumin<br>• 1 tsp coriander<br>• 4 cardamom pods<br>• 1 cinnamon stick<br>• 3 tbsp ghee<br>• Salt, saffron<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Brown lamb in ghee. Remove.<br>2. Sauté onions until golden. Add ginger-garlic paste, spices.<br>3. Return lamb. Add yogurt. Cook 5 min.<br>4. Add 2 cups water. Cover, simmer 1 hr until lamb is tender.<br>5. Season with salt. Garnish with saffron.<br>6. Serve with rice or naan.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 1 hr 15 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Samosas",
+      "cuisine": "Indian",
+      "tags": ["indian","pastry","potato","fried","appetizer","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups flour<br>• 1/4 cup oil<br>• 1/2 cup water<br>• 1/2 tsp salt<br><br><b>FILLING:</b><br>• 3 potatoes, boiled and mashed<br>• 1/2 cup peas<br>• 1 onion, diced<br>• 2 green chilies<br>• 1 tsp cumin seeds<br>• 1 tsp garam masala<br>• 1/2 tsp turmeric<br>• Salt, cilantro, oil for frying<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, oil, salt, water into stiff dough. Rest 30 min.<br>2. Sauté onion, cumin, chilies. Add peas, spices, mashed potatoes.<br>3. Roll dough into circles. Cut in half. Form cones.<br>4. Fill with potato mixture. Seal edges.<br>5. Deep fry until golden. Serve with chutney.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 45 min | Cook: 20 min | 🍴 Servings: 12-15"
+    },
+    {
+      "name": "Naan",
+      "cuisine": "Indian",
+      "tags": ["indian","bread","tandoor","vegetarian","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 cups flour<br>• 1 tsp yeast<br>• 1 tsp sugar<br>• 1/2 cup warm milk<br>• 1/2 cup yogurt<br>• 2 tbsp ghee<br>• 1 tsp salt<br>• Garlic, butter for topping<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Dissolve yeast and sugar in warm milk. Sit 10 min.<br>2. Mix flour, salt. Add yeast mixture, yogurt, ghee.<br>3. Knead 10 min. Let rise 1 hr until doubled.<br>4. Divide into balls. Roll into teardrop shapes.<br>5. Cook in hot cast iron pan until bubbles form. Flip and cook.<br>6. Brush with garlic butter. Serve hot.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 1 hr 20 min | Cook: 15 min | 🍴 Servings: 6-8"
+    },
+    {
+      "name": "Chana Masala",
+      "cuisine": "Indian",
+      "tags": ["indian","chickpea","curry","vegan","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cans chickpeas, drained<br>• 2 onions, diced<br>• 3 tomatoes, blended<br>• 4 garlic cloves<br>• 1 tbsp ginger<br>• 2 tsp cumin<br>• 2 tsp coriander<br>• 1 tsp turmeric<br>• 1 tsp garam masala<br>• 1 tsp chili powder<br>• 2 tbsp oil<br>• Salt, cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onions in oil until golden.<br>2. Add garlic, ginger, spices. Cook 2 min.<br>3. Add tomato puree. Cook until oil separates.<br>4. Add chickpeas and 1 cup water. Simmer 20 min.<br>5. Mash some chickpeas to thicken.<br>6. Season with salt. Garnish with cilantro. Serve with rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 30 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "cuisine": "Indian",
+      "tags": ["indian","chicken","tandoor","grill","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 whole chicken, skin removed, scored<br>• 1 cup yogurt<br>• 2 tbsp tandoori masala<br>• 1 tbsp ginger-garlic paste<br>• 1 tsp chili powder<br>• 1 tsp cumin<br>• 1 tsp turmeric<br>• Juice of 1 lemon<br>• Salt, oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix yogurt with all spices, lemon juice, salt.<br>2. Coat chicken thoroughly. Marinate overnight.<br>3. Preheat oven or grill to high heat.<br>4. Cook chicken 20-25 min, turning once, until charred and cooked through.<br>5. Brush with oil. Serve with mint chutney and onion rings.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 8 hrs marinate | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Mango Lassi",
+      "cuisine": "Indian",
+      "tags": ["indian","drink","mango","yogurt","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup mango pulp<br>• 1 cup yogurt<br>• 1/2 cup cold milk<br>• 2 tbsp sugar<br>• 1/4 tsp cardamom<br>• Ice cubes<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Blend all ingredients until smooth.<br>2. Pour into glasses over ice.<br>3. Garnish with a pinch of cardamom.<br>4. Serve chilled. A refreshing Indian yogurt drink.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 0 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Vegetable Pakora",
+      "cuisine": "Indian",
+      "tags": ["indian","vegetable","fried","appetizer","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup chickpea flour (besan)<br>• 1 potato, sliced thin<br>• 1 onion, sliced<br>• 1 cup spinach<br>• 1 tsp cumin seeds<br>• 1 tsp chili powder<br>• 1/2 tsp turmeric<br>• 1/2 tsp baking powder<br>• Water to make batter<br>• Oil for frying<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix chickpea flour with spices, baking powder, salt. Add water to make thick batter.<br>2. Add vegetables. Coat well.<br>3. Deep fry spoonfuls at 350°F until golden and crispy (4-5 min).<br>4. Drain on paper towels.<br>5. Serve hot with mint or tamarind chutney.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Fried Rice",
+      "cuisine": "Chinese",
+      "tags": ["chinese","rice","vegetable","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 cups cooked rice, day-old<br>• 2 eggs, beaten<br>• 1 cup mixed vegetables<br>• 3 tbsp soy sauce<br>• 1 tbsp sesame oil<br>• 2 garlic cloves<br>• 1 tsp ginger<br>• Green onions, salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Scramble eggs in hot oil. Remove.<br>2. Sauté garlic, ginger, vegetables.<br>3. Add rice. Stir-fry 3 min.<br>4. Add soy sauce, sesame oil. Toss.<br>5. Return eggs. Mix well.<br>6. Garnish with green onions.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "cuisine": "Chinese",
+      "tags": ["chinese","chicken","spicy","peanuts","stir-fry","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb chicken thighs, cubed<br>• 1/2 cup peanuts<br>• 3 dried chilies<br>• 1 bell pepper, diced<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 3 tbsp soy sauce<br>• 2 tbsp vinegar<br>• 1 tbsp sugar<br>• 1 tsp sesame oil<br>• 1 tbsp cornstarch<br>• Oil, green onions<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix soy sauce, vinegar, sugar, cornstarch for sauce.<br>2. Stir-fry chicken until golden. Remove.<br>3. Fry chilies, garlic, ginger, bell pepper.<br>4. Return chicken. Add sauce and peanuts.<br>5. Toss until sauce thickens. Drizzle sesame oil.<br>6. Garnish with green onions. Serve with rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 10 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Mapo Tofu",
+      "cuisine": "Chinese",
+      "tags": ["chinese","tofu","spicy","sichuan","vegan","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 block silken tofu, cubed<br>• 1/2 lb ground pork (optional)<br>• 2 tbsp doubanjiang (chili bean paste)<br>• 1 tsp Sichuan peppercorns<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 1 cup broth<br>• 1 tbsp soy sauce<br>• 1 tbsp cornstarch<br>• Green onions, oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Blanch tofu in hot water 2 min. Drain.<br>2. Fry pork until browned (or skip for vegan).<br>3. Add doubanjiang, garlic, ginger. Fry 1 min.<br>4. Add broth, soy sauce, tofu. Simmer 5 min.<br>5. Add cornstarch slurry to thicken.<br>6. Sprinkle Sichuan pepper and green onions. Serve with rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Spring Rolls",
+      "cuisine": "Chinese",
+      "tags": ["chinese","spring rolls","fried","appetizer","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pack spring roll wrappers<br>• 2 cups cabbage, shredded<br>• 1 carrot, julienned<br>• 1 cup bean sprouts<br>• 2 tbsp soy sauce<br>• 1 tsp sesame oil<br>• 1 tsp ginger, grated<br>• Oil for frying<br>• Sweet chili sauce<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Stir-fry vegetables with soy sauce, sesame oil, ginger. Cool.<br>2. Place filling on wrapper. Fold and roll tightly.<br>3. Seal edges with water.<br>4. Deep fry at 350°F 3-4 min until golden.<br>5. Drain. Serve hot with sweet chili sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 15 min | 🍴 Servings: 10-12"
+    },
+    {
+      "name": "Mongolian Beef",
+      "cuisine": "Chinese",
+      "tags": ["chinese","beef","stir-fry","sweet","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb flank steak, thinly sliced<br>• 1/4 cup soy sauce<br>• 1/4 cup brown sugar<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 2 tbsp cornstarch<br>• 4 green onions, cut into 2-inch pieces<br>• 2 tbsp oil<br>• 1 tsp sesame oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Toss beef with cornstarch.<br>2. Fry beef in hot oil until crispy. Remove.<br>3. Sauté garlic, ginger.<br>4. Add soy sauce, brown sugar. Simmer until syrupy.<br>5. Return beef, add green onions. Toss.<br>6. Drizzle sesame oil. Serve with rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Dim Sum",
+      "cuisine": "Chinese",
+      "tags": ["chinese","dumplings","pork","steamed","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb ground pork<br>• 1/2 cup shrimp, minced<br>• 1 tbsp ginger<br>• 2 garlic cloves<br>• 2 tbsp soy sauce<br>• 1 tbsp sesame oil<br>• 1 tsp sugar<br>• Round dumpling wrappers<br>• Soy sauce, vinegar, chili oil for dipping<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix pork, shrimp, ginger, garlic, soy sauce, sesame oil, sugar.<br>2. Place filling in center of wrapper. Pleat edges to seal.<br>3. Steam dumplings 8-10 min until cooked through.<br>4. Serve in bamboo steamer with dipping sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 10 min | 🍴 Servings: 20-24"
+    },
+    {
+      "name": "Char Siu",
+      "cuisine": "Chinese",
+      "tags": ["chinese","pork","bbq","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lb pork shoulder<br>• 3 tbsp honey<br>• 2 tbsp soy sauce<br>• 1 tbsp hoisin sauce<br>• 1 tbsp oyster sauce<br>• 1 tsp five spice<br>• 1 tsp sesame oil<br>• 2 garlic cloves<br>• Red food coloring (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix all ingredients (except pork) for marinade.<br>2. Marinate pork overnight.<br>3. Roast at 375°F 30 min. Baste with marinade.<br>4. Turn, roast 20 more min basting twice.<br>5. Broil 3 min for caramelized edges.<br>6. Slice thin. Serve with rice or in bao buns.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 8 hrs marinate | Cook: 55 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Wonton Soup",
+      "cuisine": "Chinese",
+      "tags": ["chinese","wonton","soup","pork","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pack wonton wrappers<br>• 1/2 lb ground pork<br>• 1/2 cup shrimp, minced<br>• 1 tbsp ginger<br>• 2 garlic cloves<br>• 1 tbsp soy sauce<br>• 1 tsp sesame oil<br>• 4 cups chicken broth<br>• Green onions, bok choy<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix pork, shrimp, ginger, garlic, soy sauce, sesame oil.<br>2. Fill wonton wrappers. Fold and seal.<br>3. Bring broth to boil. Add wontons.<br>4. Cook 4-5 min until wontons float.<br>5. Add bok choy. Garnish with green onions.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 25 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Hot and Sour Soup",
+      "cuisine": "Chinese",
+      "tags": ["chinese","soup","spicy","sour","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 6 cups chicken broth<br>• 1/2 cup bamboo shoots<br>• 1/2 cup mushrooms, sliced<br>• 1 block tofu, julienned<br>• 3 tbsp soy sauce<br>• 3 tbsp vinegar<br>• 1 tsp white pepper<br>• 2 eggs, beaten<br>• 2 tbsp cornstarch<br>• 1 tsp sesame oil<br>• Green onions<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Bring broth to boil. Add bamboo shoots, mushrooms, tofu.<br>2. Add soy sauce, vinegar, white pepper.<br>3. Thicken with cornstarch slurry.<br>4. Drizzle in beaten eggs, stirring gently.<br>5. Drizzle sesame oil. Garnish with green onions.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Egg Drop Soup",
+      "cuisine": "Chinese",
+      "tags": ["chinese","soup","egg","vegetarian","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 cups chicken broth<br>• 3 eggs, beaten<br>• 1 tbsp soy sauce<br>• 1 tsp sesame oil<br>• 1 tbsp cornstarch<br>• 1 tsp ginger, grated<br>• Green onions<br>• White pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Bring broth to boil with ginger and soy sauce.<br>2. Add cornstarch slurry. Stir until slightly thickened.<br>3. Slowly drizzle in eggs while stirring in one direction.<br>4. Season with white pepper and sesame oil.<br>5. Garnish with green onions. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Sushi Rolls",
+      "cuisine": "Japanese",
+      "tags": ["japanese","sushi","rice","fish","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups sushi rice<br>• 2.5 cups water<br>• 1/4 cup rice vinegar<br>• 2 tbsp sugar<br>• 1 tsp salt<br>• 4 nori sheets<br>• Cucumber, avocado<br>• 8 oz raw salmon or tuna<br>• Soy sauce, wasabi, pickled ginger<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook rice. Mix vinegar, sugar, salt. Fold into hot rice. Cool.<br>2. Place nori on bamboo mat. Spread rice thinly, leaving 1 inch at top.<br>3. Add fillings in a line across the center.<br>4. Roll tightly using the mat. Seal edge with water.<br>5. Slice into rounds with sharp knife.<br>6. Serve with soy sauce, wasabi, pickled ginger.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 20 min | 🍴 Servings: 4 rolls"
+    },
+    {
+      "name": "Miso Soup",
+      "cuisine": "Japanese",
+      "tags": ["japanese","soup","miso","tofu","vegan","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 cups dashi stock<br>• 3 tbsp white miso paste<br>• 1 block silken tofu, cubed<br>• 2 green onions, sliced<br>• 1 sheet wakame seaweed<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Bring dashi to a gentle simmer.<br>2. Add wakame and tofu. Heat 2 min.<br>3. Remove from heat. Dissolve miso paste in a ladle of broth.<br>4. Return to pot. Do NOT boil after adding miso.<br>5. Serve in bowls garnished with green onions.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 5 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "cuisine": "Japanese",
+      "tags": ["japanese","chicken","teriyaki","sweet","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 chicken thighs<br>• 1/4 cup soy sauce<br>• 1/4 cup mirin<br>• 2 tbsp sugar<br>• 1 tbsp sake (optional)<br>• 1 tsp ginger, grated<br>• 2 garlic cloves<br>• Sesame seeds, green onions<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix soy sauce, mirin, sugar, sake, ginger, garlic for sauce.<br>2. Score chicken thighs. Pan-fry skin-side down until crispy.<br>3. Flip, cook 3 more min. Drain excess fat.<br>4. Pour sauce over. Simmer until thick and glossy (3-4 min).<br>5. Slice and drizzle remaining sauce.<br>6. Garnish with sesame seeds and green onions. Serve with rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Tempura",
+      "cuisine": "Japanese",
+      "tags": ["japanese","shrimp","vegetable","fried","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 8 large shrimp, peeled (tails on)<br>• Assorted vegetables (sweet potato, broccoli, zucchini)<br>• 1 cup flour<br>• 1 egg yolk<br>• 1 cup ice-cold soda water<br>• Oil for frying<br>• Tempura dipping sauce<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Make batter: mix flour, egg yolk, soda water. Keep cold and lumpy.<br>2. Heat oil to 350°F.<br>3. Dip shrimp and vegetables in batter. Fry 2-3 min until light golden.<br>4. Drain on paper towels.<br>5. Serve immediately with tempura dipping sauce and grated daikon.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Okonomiyaki",
+      "cuisine": "Japanese",
+      "tags": ["japanese","pancake","cabbage","pork","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup flour<br>• 1 cup water<br>• 2 eggs<br>• 3 cups cabbage, shredded<br>• 1/2 cup green onions<br>• 1/2 lb pork belly, sliced thin<br>• Okonomiyaki sauce<br>• Japanese mayo<br>• Bonito flakes, aonori<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, water, eggs into batter. Add cabbage, green onions.<br>2. Pour onto hot oiled griddle. Top with pork slices.<br>3. Cook 4-5 min per side until golden and cooked through.<br>4. Drizzle with okonomiyaki sauce and mayo.<br>5. Sprinkle with bonito flakes and aonori. Serve hot.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 10 min | 🍴 Servings: 2"
+    },
+    {
+      "name": "Ramen",
+      "cuisine": "Japanese",
+      "tags": ["japanese","ramen","noodles","pork","soup","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 packs ramen noodles<br>• 6 cups pork or chicken broth<br>• 1 tbsp soy sauce<br>• 1 tbsp miso<br>• 1 tsp sesame oil<br>• Toppings: sliced pork, soft-boiled egg, nori, green onions, corn<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Simmer broth with soy sauce, miso, sesame oil.<br>2. Cook ramen noodles according to package.<br>3. Place noodles in bowls. Ladle hot broth over.<br>4. Top with sliced pork, halved soft-boiled egg, nori, green onions.<br>5. Serve immediately. Customize with chili oil or garlic.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Gyoza",
+      "cuisine": "Japanese",
+      "tags": ["japanese","dumplings","pork","pan-fried","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pack gyoza wrappers<br>• 1/2 lb ground pork<br>• 1 cup cabbage, minced<br>• 2 garlic cloves<br>• 1 tbsp ginger<br>• 2 tbsp soy sauce<br>• 1 tbsp sesame oil<br>• Oil for frying<br>• Dipping sauce: soy sauce, vinegar, chili oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix pork, cabbage, garlic, ginger, soy sauce, sesame oil.<br>2. Place filling on wrapper. Pleat and seal.<br>3. Heat oil in pan. Place gyoza flat-side down. Fry 2 min until golden.<br>4. Add 1/4 cup water. Cover, steam 4 min.<br>5. Uncover, cook until water evaporates and bottoms crisp.<br>6. Serve with dipping sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 10 min | 🍴 Servings: 20-24"
+    },
+    {
+      "name": "Tonkatsu",
+      "cuisine": "Japanese",
+      "tags": ["japanese","pork","cutlet","fried","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 pork loin chops<br>• 1 cup flour<br>• 2 eggs, beaten<br>• 2 cups panko breadcrumbs<br>• Oil for frying<br>• Salt, pepper<br>• Tonkatsu sauce<br>• Shredded cabbage<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Pound pork to even thickness. Season with salt, pepper.<br>2. Bread: flour, egg, panko. Press panko firmly.<br>3. Deep fry at 350°F 4-5 min per side until golden and cooked through.<br>4. Drain. Slice into strips.<br>5. Serve with shredded cabbage and tonkatsu sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Pad Thai",
+      "cuisine": "Thai",
+      "tags": ["thai","noodles","shrimp","pad thai","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 8 oz rice noodles<br>• 1/2 lb shrimp<br>• 2 eggs<br>• 3 tbsp fish sauce<br>• 3 tbsp tamarind paste<br>• 2 tbsp sugar<br>• 1 tbsp lime juice<br>• 1 cup bean sprouts<br>• 1/4 cup peanuts, crushed<br>• 3 garlic cloves<br>• 2 green onions<br>• Oil, chili flakes<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak noodles 30 min. Drain.<br>2. Make sauce: fish sauce, tamarind, sugar, lime juice.<br>3. Stir-fry shrimp. Remove. Scramble eggs in same pan.<br>4. Add garlic, noodles, sauce. Toss 2 min.<br>5. Return shrimp. Add bean sprouts. Toss.<br>6. Serve garnished with peanuts, green onions, chili flakes.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 35 min | Cook: 10 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Tom Yum Soup",
+      "cuisine": "Thai",
+      "tags": ["thai","soup","shrimp","spicy","sour","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 lb shrimp<br>• 4 cups chicken broth<br>• 2 lemongrass stalks, bruised<br>• 3 kaffir lime leaves<br>• 1 tbsp galangal, sliced<br>• 3 Thai chilies<br>• 2 tbsp fish sauce<br>• 2 tbsp lime juice<br>• 1 tbsp chili paste<br>• 1 cup mushrooms<br>• Cilantro<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Bring broth to boil. Add lemongrass, lime leaves, galangal, chilies.<br>2. Simmer 5 min. Add mushrooms.<br>3. Add shrimp. Cook 2 min until pink.<br>4. Stir in fish sauce, lime juice, chili paste.<br>5. Remove from heat. Garnish with cilantro. Serve hot.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Green Curry",
+      "cuisine": "Thai",
+      "tags": ["thai","curry","chicken","coconut","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb chicken thighs, sliced<br>• 2 tbsp green curry paste<br>• 1 can coconut milk<br>• 1 cup bamboo shoots<br>• 1 cup Thai basil<br>• 1 cup vegetables (bell pepper, green beans)<br>• 2 tbsp fish sauce<br>• 1 tbsp sugar<br>• 2 kaffir lime leaves<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Heat 1/2 can coconut milk. Stir in curry paste until fragrant.<br>2. Add chicken. Cook 5 min.<br>3. Add remaining coconut milk, vegetables, bamboo shoots.<br>4. Add fish sauce, sugar, lime leaves. Simmer 10 min.<br>5. Stir in Thai basil. Serve with jasmine rice.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "cuisine": "Thai",
+      "tags": ["thai","dessert","mango","rice","coconut","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup glutinous rice<br>• 1 can coconut milk<br>• 1/2 cup sugar<br>• 1/2 tsp salt<br>• 2 ripe mangoes, sliced<br>• Sesame seeds or mung beans for garnish<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak rice overnight. Steam 20-25 min until tender.<br>2. Warm coconut milk with sugar and salt (don't boil).<br>3. Pour most of coconut milk over hot rice. Mix gently. Cover 15 min.<br>4. Slice mangoes.<br>5. Serve rice with mango slices. Drizzle with remaining coconut sauce.<br>6. Garnish with sesame seeds.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 8 hrs soaking | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Pad See Ew",
+      "cuisine": "Thai",
+      "tags": ["thai","noodles","chicken","stir-fry","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 8 oz wide rice noodles<br>• 1/2 lb chicken, sliced<br>• 2 eggs<br>• 2 cups Chinese broccoli<br>• 3 tbsp soy sauce<br>• 1 tbsp dark soy sauce<br>• 1 tbsp sugar<br>• 2 garlic cloves<br>• 1 tbsp oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak noodles 15 min. Drain.<br>2. Mix soy sauces and sugar.<br>3. Stir-fry chicken until cooked. Remove.<br>4. Fry garlic and broccoli. Add noodles, sauce. Toss 2 min.<br>5. Push noodles aside. Scramble eggs in same pan.<br>6. Return chicken. Toss everything together. Serve hot.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 10 min | 🍴 Servings: 3-4"
+    },
+    {
+      "name": "Pho",
+      "cuisine": "Vietnamese",
+      "tags": ["vietnamese","noodles","beef","soup","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb beef bones<br>• 1 lb beef sirloin, thinly sliced<br>• 1 pack rice noodles<br>• 1 onion, halved<br>• 1 piece ginger<br>• 2 star anise<br>• 1 cinnamon stick<br>• 3 tbsp fish sauce<br>• Bean sprouts, Thai basil, lime, hoisin, sriracha<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Char onion and ginger under broiler.<br>2. Simmer beef bones, onion, ginger, star anise, cinnamon in water 3 hrs.<br>3. Strain broth. Season with fish sauce.<br>4. Cook noodles. Place in bowls.<br>5. Arrange raw beef slices on top. Ladle boiling broth over (cooks the beef).<br>6. Serve with bean sprouts, basil, lime, hoisin, sriracha.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 3 hrs | 🍴 Servings: 4"
+    },
+    {
+      "name": "Vietnamese Spring Rolls",
+      "cuisine": "Vietnamese",
+      "tags": ["vietnamese","spring rolls","shrimp","fresh","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 12 rice paper wrappers<br>• 1/2 lb shrimp, cooked and halved<br>• Rice vermicelli noodles<br>• Lettuce, mint, cilantro<br>• 1 carrot, julienned<br>• 1 cucumber, julienned<br>• Peanut dipping sauce<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cook noodles. Cool.<br>2. Dip rice paper in warm water until soft.<br>3. Layer on surface: lettuce, noodles, herbs, carrot, cucumber, shrimp.<br>4. Fold sides in, roll tightly.<br>5. Serve with peanut dipping sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 5 min | 🍴 Servings: 12 rolls"
+    },
+    {
+      "name": "Kimchi",
+      "cuisine": "Korean",
+      "tags": ["korean","kimchi","cabbage","fermented","spicy","side","vegan"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 napa cabbage<br>• 1/4 cup salt<br>• 4 cups water<br><br><b>PASTE:</b><br>• 3 tbsp gochugaru (Korean chili flakes)<br>• 2 tbsp fish sauce<br>• 1 tbsp garlic, minced<br>• 1 tsp ginger<br>• 2 green onions<br>• 1 carrot, julienned<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Cut cabbage. Soak in salt water 2 hrs, turning occasionally.<br>2. Rinse thoroughly. Drain.<br>3. Mix chili paste ingredients.<br>4. Rub paste between cabbage leaves.<br>5. Pack into jar. Press down. Leave at room temp 1-2 days.<br>6. Refrigerate. Fermentation continues slowly. Best after 1 week.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Ferment: 1-2 days | 🍴 Yield: 1 quart"
+    },
+    {
+      "name": "Bibimbap",
+      "cuisine": "Korean",
+      "tags": ["korean","rice","vegetables","beef","egg","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups cooked rice<br>• 1/2 lb beef, sliced<br>• 4 eggs<br>• Assorted vegetables (spinach, carrots, bean sprouts, mushrooms, zucchini)<br>• 3 tbsp gochujang<br>• 1 tbsp sesame oil<br>• 1 tbsp soy sauce<br>• Sesame seeds<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate beef in soy sauce, sesame oil. Stir-fry.<br>2. Sauté each vegetable separately.<br>3. Fry eggs sunny-side up.<br>4. Place rice in bowl. Arrange vegetables and beef on top.<br>5. Top with egg. Add gochujang and sesame oil.<br>6. Mix everything together before eating.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 20 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Bulgogi",
+      "cuisine": "Korean",
+      "tags": ["korean","beef","bbq","grill","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb ribeye, thinly sliced<br>• 1/4 cup soy sauce<br>• 2 tbsp sugar<br>• 1 tbsp sesame oil<br>• 3 garlic cloves<br>• 1 tbsp ginger<br>• 1/2 pear, grated<br>• 2 green onions<br>• Sesame seeds<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix soy sauce, sugar, sesame oil, garlic, ginger, pear.<br>2. Marinate beef 30 min.<br>3. Grill or pan-fry over high heat 2-3 min per side.<br>4. Garnish with green onions and sesame seeds.<br>5. Serve with rice and lettuce wraps.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 35 min | Cook: 5 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Korean Fried Chicken",
+      "cuisine": "Korean",
+      "tags": ["korean","chicken","fried","crispy","spicy","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs chicken wings or drumettes<br>• 1/2 cup cornstarch<br>• 1/2 cup flour<br>• 1 tsp salt<br>• 1 tsp pepper<br>• Oil for frying<br><br><b>SAUCE:</b><br>• 3 tbsp gochujang<br>• 2 tbsp honey<br>• 1 tbsp soy sauce<br>• 1 tbsp vinegar<br>• 2 garlic cloves<br>• Sesame seeds<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, cornstarch, salt, pepper. Coat chicken.<br>2. Double-fry: first at 320°F 8 min, rest 5 min, second at 350°F 5 min until extra crispy.<br>3. Mix sauce ingredients in a pan. Simmer until thick.<br>4. Toss hot chicken in sauce.<br>5. Garnish with sesame seeds. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 25 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Ratatouille",
+      "cuisine": "French",
+      "tags": ["french","vegetable","stew","vegan","main","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 zucchini, sliced<br>• 1 eggplant, cubed<br>• 2 bell peppers, diced<br>• 1 onion, diced<br>• 4 tomatoes, chopped<br>• 4 garlic cloves<br>• 1/4 cup olive oil<br>• Herbes de Provence<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onion and garlic in olive oil until soft.<br>2. Add peppers. Cook 5 min.<br>3. Add eggplant. Cook 5 min.<br>4. Add zucchini and tomatoes. Add herbs.<br>5. Simmer 30 min until vegetables are tender and flavors meld.<br>6. Season with salt and pepper. Serve hot or at room temp.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 45 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Quiche Lorraine",
+      "cuisine": "French",
+      "tags": ["french","quiche","egg","bacon","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pie crust<br>• 6 oz bacon, diced<br>• 3 eggs<br>• 1.5 cups heavy cream<br>• 1 cup gruyere, grated<br>• 1/4 tsp nutmeg<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Preheat oven to 375°F. Blind bake pie crust 10 min.<br>2. Cook bacon until crispy. Sprinkle in crust with cheese.<br>3. Whisk eggs, cream, nutmeg, salt, pepper.<br>4. Pour over bacon and cheese.<br>5. Bake 35-40 min until set and golden.<br>6. Cool 10 min before slicing.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 50 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Croissants",
+      "cuisine": "French",
+      "tags": ["french","pastry","butter","bake","breakfast"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3.5 cups flour<br>• 1 cup warm milk<br>• 2 tsp yeast<br>• 2 tbsp sugar<br>• 1 tsp salt<br>• 1.25 cups cold butter<br>• 1 egg for wash<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix flour, yeast, sugar, salt, milk into dough. Rest 1 hr.<br>2. Roll dough into rectangle. Place cold butter slab in center. Fold and seal.<br>3. Roll and fold (3 folds total), chilling 30 min between each.<br>4. Roll into large rectangle. Cut triangles.<br>5. Roll each triangle from base to tip. Curve into crescent.<br>6. Proof 2 hrs. Brush with egg wash.<br>7. Bake at 400°F 15-18 min until golden and flaky.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 4+ hrs | Cook: 18 min | 🍴 Yield: 12-14"
+    },
+    {
+      "name": "French Onion Soup",
+      "cuisine": "French",
+      "tags": ["french","soup","onion","cheese","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 6 large onions, thinly sliced<br>• 4 tbsp butter<br>• 4 cups beef broth<br>• 1 cup white wine<br>• 1 tsp thyme<br>• 1 bay leaf<br>• Baguette slices<br>• 2 cups gruyere, grated<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Caramelize onions in butter over low heat 45 min until deep golden.<br>2. Add wine. Simmer until reduced.<br>3. Add broth, thyme, bay leaf. Simmer 20 min.<br>4. Season with salt and pepper. Remove bay leaf.<br>5. Ladle into oven-safe bowls. Top with baguette and cheese.<br>6. Broil until cheese is melted and bubbly. Serve immediately.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 1 hr 15 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Coq au Vin",
+      "cuisine": "French",
+      "tags": ["french","chicken","wine","braised","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 4 chicken legs<br>• 2 cups red wine<br>• 1 cup mushrooms<br>• 1 onion, diced<br>• 2 carrots, diced<br>• 4 garlic cloves<br>• 2 tbsp tomato paste<br>• 2 cups chicken broth<br>• 4 bacon slices<br>• Thyme, bay leaf<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate chicken in wine 2 hrs.<br>2. Cook bacon until crispy. Remove.<br>3. Brown chicken in bacon fat. Remove.<br>4. Sauté vegetables. Add tomato paste. Cook 2 min.<br>5. Add wine, broth, herbs, chicken, bacon.<br>6. Cover, simmer 45 min until chicken is tender.<br>7. Season with salt and pepper. Serve over mashed potatoes.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 2 hrs marinate | Cook: 1 hr | 🍴 Servings: 4"
+    },
+    {
+      "name": "Crepes",
+      "cuisine": "French",
+      "tags": ["french","crepes","breakfast","dessert","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup flour<br>• 2 eggs<br>• 1.5 cups milk<br>• 2 tbsp melted butter<br>• 1 tbsp sugar<br>• 1 tsp vanilla<br>• Pinch salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Whisk all ingredients until smooth. Rest 30 min.<br>2. Heat non-stick pan over medium. Lightly butter.<br>3. Pour 1/4 cup batter, swirl to coat thinly.<br>4. Cook 1 min per side until lightly golden.<br>5. Fill with Nutella, fruit, cream cheese, or savory fillings.<br>6. Fold or roll. Dust with powdered sugar.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 35 min | Cook: 15 min | 🍴 Servings: 8-10"
+    },
+    {
+      "name": "Bouillabaisse",
+      "cuisine": "French",
+      "tags": ["french","fish","seafood","soup","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs mixed fish and seafood<br>• 1 onion, diced<br>• 2 leeks, sliced<br>• 4 garlic cloves<br>• 2 tomatoes, chopped<br>• 1 fennel bulb, sliced<br>• 1 cup white wine<br>• 4 cups fish stock<br>• Saffron<br>• Rouille, croutons<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onion, leeks, garlic, fennel in olive oil.<br>2. Add tomatoes, wine. Simmer 5 min.<br>3. Add stock and saffron. Simmer 20 min.<br>4. Add fish first, then seafood. Cook 5 min until just done.<br>5. Serve with rouille-topped croutons.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 35 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Beef Bourguignon",
+      "cuisine": "French",
+      "tags": ["french","beef","wine","braised","stew","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs beef chuck, cubed<br>• 2 cups red wine<br>• 2 cups beef broth<br>• 2 tbsp tomato paste<br>• 1 onion, diced<br>• 2 carrots, diced<br>• 4 garlic cloves<br>• 1 cup mushrooms<br>• 4 bacon slices<br>• Thyme, bay leaf<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate beef in wine 2 hrs.<br>2. Cook bacon. Remove. Brown beef in batches. Remove.<br>3. Sauté vegetables. Add tomato paste.<br>4. Add beef, wine, broth, bacon, herbs.<br>5. Bring to boil. Cover, simmer 2 hrs.<br>6. Add mushrooms. Cook 30 more min.<br>7. Season with salt and pepper. Serve over mashed potatoes or pasta.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 2 hrs marinate | Cook: 2.5 hrs | 🍴 Servings: 6"
+    },
+    {
+      "name": "Hummus",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","chickpea","dip","vegan","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cans chickpeas, drained<br>• 1/4 cup tahini<br>• 3 tbsp lemon juice<br>• 2 garlic cloves<br>• 1/4 cup olive oil<br>• 1/2 tsp cumin<br>• Salt, water as needed<br>• Paprika, parsley for garnish<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Blend tahini with lemon juice and garlic until light.<br>2. Add chickpeas, olive oil, cumin, salt. Blend until smooth.<br>3. Add ice water gradually for creamy texture.<br>4. Adjust seasoning. Spread on plate.<br>5. Drizzle with olive oil. Sprinkle paprika and parsley.<br>6. Serve with warm pita bread.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 0 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Falafel",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","chickpea","fried","vegan","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups dried chickpeas, soaked overnight<br>• 1 onion, chopped<br>• 4 garlic cloves<br>• 1 cup parsley, chopped<br>• 2 tsp cumin<br>• 1 tsp coriander<br>• 1 tsp baking powder<br>• 1 tsp salt<br>• 1/2 tsp chili flakes<br>• Oil for frying<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Drain chickpeas. Blend with onion, garlic, parsley, spices until coarse paste.<br>2. Add baking powder. Refrigerate 30 min.<br>3. Shape into balls or patties.<br>4. Deep fry at 350°F 4-5 min until deep golden and crispy.<br>5. Serve in pita with tahini sauce, veggies, pickles.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 8 hrs soaking | Cook: 15 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Shawarma",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","chicken","spiced","sandwich","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs chicken thighs<br>• 3 tbsp yogurt<br>• 2 tbsp lemon juice<br>• 2 tbsp olive oil<br>• 2 tsp cumin<br>• 2 tsp paprika<br>• 1 tsp turmeric<br>• 1 tsp garlic powder<br>• 1 tsp cinnamon<br>• Pita bread, tahini, pickles, tomatoes<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Mix yogurt, lemon juice, oil, spices. Marinate chicken 2 hrs.<br>2. Grill or pan-fry chicken until charred and cooked through.<br>3. Rest, then slice thinly.<br>4. Warm pita. Fill with chicken.<br>5. Top with tahini sauce, pickles, tomatoes. Roll tightly.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 2 hrs marinate | Cook: 15 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Baba Ganoush",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","eggplant","dip","vegan","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 large eggplants<br>• 1/4 cup tahini<br>• 3 tbsp lemon juice<br>• 2 garlic cloves<br>• 3 tbsp olive oil<br>• 1 tsp cumin<br>• Salt, parsley<br>• Pomegranate seeds (optional)<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Prick eggplants. Roast whole at 400°F 40 min until soft and charred.<br>2. Let cool. Scoop out flesh. Drain excess liquid.<br>3. Blend eggplant with tahini, lemon juice, garlic, olive oil, cumin, salt.<br>4. Adjust consistency and seasoning.<br>5. Drizzle with olive oil. Garnish with parsley and pomegranate seeds.<br>6. Serve with warm pita.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 40 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Tabbouleh",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","salad","bulgur","parsley","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1/2 cup fine bulgur<br>• 2 cups parsley, finely chopped<br>• 1/2 cup mint, chopped<br>• 3 tomatoes, diced<br>• 1 cucumber, diced<br>• 1/2 cup green onions<br>• 1/4 cup lemon juice<br>• 1/4 cup olive oil<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak bulgur in water 15 min. Drain well.<br>2. Mix bulgur with parsley, mint, tomatoes, cucumber, green onions.<br>3. Whisk lemon juice, olive oil, salt, pepper.<br>4. Pour dressing over salad. Toss well.<br>5. Refrigerate 30 min before serving.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Chill: 30 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Baklava",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","dessert","pastry","nuts","sweet"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pack phyllo dough<br>• 2 cups mixed nuts (walnuts, pistachios)<br>• 1 cup butter, melted<br>• 1 tsp cinnamon<br><br><b>SYRUP:</b><br>• 1 cup sugar<br>• 1 cup water<br>• 1/2 cup honey<br>• 1 tsp lemon juice<br>• 1 cinnamon stick<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Chop nuts with cinnamon.<br>2. Layer phyllo in buttered pan, brushing each sheet with butter. Every 3-4 sheets, add nut layer.<br>3. Repeat until all used. Cut into diamonds.<br>4. Bake at 350°F 45 min until golden.<br>5. Make syrup: boil sugar, water, honey, lemon, cinnamon until thickened. Cool.<br>6. Pour cooled syrup over hot baklava. Let absorb overnight.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 45 min + overnight | 🍴 Servings: 20-24"
+    },
+    {
+      "name": "Kibbeh",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","beef","bulgur","fried","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 cup fine bulgur<br>• 1 lb ground beef<br>• 1 onion, grated<br>• 2 tsp cumin<br>• 1 tsp cinnamon<br>• 1 tsp allspice<br>• Salt, pepper, pine nuts, oil<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak bulgur in water 20 min. Squeeze dry.<br>2. Mix bulgur with half the beef, onion, spices. Process until paste.<br>3. Sauté remaining beef with pine nuts for filling.<br>4. Form bulgur mixture into balls. Make hole, fill with meat mixture. Seal.<br>5. Shape into ovals. Deep fry until golden.<br>6. Serve with yogurt sauce.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 30 min | Cook: 15 min | 🍴 Servings: 12-15"
+    },
+    {
+      "name": "Fattoush",
+      "cuisine": "Middle Eastern",
+      "tags": ["middle eastern","salad","bread","vegan","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 pita breads, toasted and broken<br>• 2 tomatoes, diced<br>• 1 cucumber, diced<br>• 1/2 head romaine, chopped<br>• 1/2 cup radish, sliced<br>• 1/2 cup mint, chopped<br>• 1/2 cup parsley<br><br><b>DRESSING:</b><br>• 1/4 cup olive oil<br>• 2 tbsp lemon juice<br>• 1 tbsp sumac<br>• 1 garlic clove<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Whisk dressing ingredients together.<br>2. Combine all vegetables and herbs in a bowl.<br>3. Add toasted pita pieces.<br>4. Pour dressing over. Toss well.<br>5. Serve immediately to keep pita crunchy.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 5 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Greek Salad",
+      "cuisine": "Greek",
+      "tags": ["greek","salad","feta","tomato","vegetarian","side"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 3 tomatoes, wedges<br>• 1 cucumber, chunks<br>• 1 red onion, sliced<br>• 1 bell pepper, sliced<br>• 1/2 cup kalamata olives<br>• 8 oz feta cheese, block<br>• 1 tsp dried oregano<br>• 3 tbsp olive oil<br>• 1 tbsp red wine vinegar<br>• Salt and pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Arrange vegetables on a platter.<br>2. Place feta block on top. Sprinkle oregano.<br>3. Drizzle with olive oil and vinegar.<br>4. Season with salt and pepper.<br>5. Serve with crusty bread.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 0 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Spanakopita",
+      "cuisine": "Greek",
+      "tags": ["greek","spinach","feta","phyllo","bake","main","vegetarian"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 pack phyllo dough<br>• 1 lb spinach, chopped<br>• 2 cups feta, crumbled<br>• 1 onion, diced<br>• 3 eggs<br>• 1/2 cup dill, chopped<br>• 1/2 cup butter, melted<br>• Salt, pepper, nutmeg<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté onion. Add spinach until wilted. Drain. Cool.<br>2. Mix spinach with feta, eggs, dill, salt, pepper, nutmeg.<br>3. Layer phyllo in pan, brushing each sheet with butter.<br>4. Spread spinach filling. Top with more buttered phyllo.<br>5. Score top layers. Bake at 375°F 40 min until golden.<br>6. Cool 10 min before cutting.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 45 min | 🍴 Servings: 8-10"
+    },
+    {
+      "name": "Moussaka",
+      "cuisine": "Greek",
+      "tags": ["greek","eggplant","beef","bake","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 large eggplants, sliced<br>• 1 lb ground beef<br>• 1 onion, diced<br>• 3 garlic cloves<br>• 2 cups tomato sauce<br>• 1 tsp cinnamon<br>• 1 tsp allspice<br>• 1/4 cup red wine<br>• 3 tbsp butter<br>• 3 tbsp flour<br>• 2 cups milk<br>• 2 eggs<br>• 1/2 cup parmesan<br>• Salt, pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Salt eggplant slices. Drain 30 min. Pat dry. Fry until golden.<br>2. Brown beef with onion, garlic. Add tomato sauce, wine, spices. Simmer 20 min.<br>3. Make béchamel: melt butter, whisk flour, gradually add milk. Cook until thick. Off heat, stir in eggs and parmesan.<br>4. Layer: eggplant, meat sauce, eggplant, béchamel.<br>5. Bake at 350°F 45 min until golden. Rest 15 min before serving.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 40 min | Cook: 1 hr 15 min | 🍴 Servings: 8"
+    },
+    {
+      "name": "Tzatziki",
+      "cuisine": "Greek",
+      "tags": ["greek","yogurt","cucumber","dip","vegetarian","appetizer"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups Greek yogurt<br>• 1 cucumber, grated<br>• 2 garlic cloves, minced<br>• 1 tbsp lemon juice<br>• 1 tbsp olive oil<br>• 1 tbsp dill or mint<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Grate cucumber. Squeeze out excess water.<br>2. Mix yogurt with cucumber, garlic, lemon juice, olive oil, herbs, salt.<br>3. Refrigerate 1 hr for flavors to meld.<br>4. Drizzle with olive oil. Serve with pita or grilled meats.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Chill: 1 hr | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Gyros",
+      "cuisine": "Greek",
+      "tags": ["greek","pork","chicken","sandwich","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 lbs pork or chicken, sliced thin<br>• 2 tbsp olive oil<br>• 2 tsp oregano<br>• 1 tsp garlic powder<br>• 1 tsp paprika<br>• Salt, pepper, lemon juice<br>• Pita bread<br>• Tzatziki, tomatoes, onion, fries<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate meat in oil, oregano, garlic, paprika, salt, pepper, lemon juice 2 hrs.<br>2. Grill or pan-fry over high heat until charred and cooked through.<br>3. Warm pita. Layer meat, tzatziki, tomatoes, onion, fries.<br>4. Roll tightly in foil. Serve with extra tzatziki.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 2 hrs marinate | Cook: 10 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Souvlaki",
+      "cuisine": "Greek",
+      "tags": ["greek","pork","skewers","grill","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 lbs pork shoulder, cubed<br>• 1/4 cup olive oil<br>• 1/4 cup lemon juice<br>• 4 garlic cloves<br>• 2 tsp oregano<br>• 1 tsp thyme<br>• Salt, pepper<br>• Pita, tzatziki, tomatoes, onion<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Whisk oil, lemon, garlic, oregano, thyme, salt, pepper. Marinate pork 2 hrs.<br>2. Thread onto skewers.<br>3. Grill over high heat 10-12 min, turning, until charred and cooked.<br>4. Serve on warm pita with tzatziki, tomatoes, onion.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 2 hrs marinate | Cook: 12 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Fish and Chips",
+      "cuisine": "British",
+      "tags": ["british","fish","fried","chips","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb cod fillets<br>• 1 cup flour<br>• 1 tsp baking powder<br>• 1 cup cold beer<br>• 1 egg<br>• Salt, pepper<br>• 4 large potatoes, cut into thick chips<br>• Oil for frying<br>• Malt vinegar, tartar sauce<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Soak chips in cold water 30 min. Dry. Fry at 325°F 5 min. Drain.<br>2. Increase oil to 375°F. Fry chips again 3 min until crispy. Season.<br>3. For fish: mix flour, baking powder, salt, pepper. Whisk in beer and egg until smooth.<br>4. Dip fish in batter. Fry at 375°F 5-6 min until golden and crispy.<br>5. Serve with chips, malt vinegar, tartar sauce, mushy peas.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 25 min | 🍴 Servings: 4"
+    },
+    {
+      "name": "Paella",
+      "cuisine": "Spanish",
+      "tags": ["spanish","rice","seafood","saffron","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 cups paella rice<br>• 1/2 lb shrimp<br>• 1/2 lb mussels<br>• 1/2 lb chicken, cubed<br>• 1 onion, diced<br>• 4 garlic cloves<br>• 2 tomatoes, grated<br>• 4 cups broth<br>• 1 tsp saffron<br>• 1 tsp paprika<br>• 1/2 cup peas<br>• Olive oil, lemon, parsley<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Sauté chicken in olive oil until golden. Remove.<br>2. Sauté onion, garlic. Add tomatoes, paprika.<br>3. Add rice, stir to coat. Add saffron-infused broth.<br>4. Arrange chicken and seafood on top. Cook without stirring 18 min.<br>5. Top with peas. Cook 2 more min. Remove from heat.<br>6. Cover with towel. Rest 5 min. Garnish with parsley and lemon.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 15 min | Cook: 30 min | 🍴 Servings: 4-6"
+    },
+    {
+      "name": "Shepherd's Pie",
+      "cuisine": "British",
+      "tags": ["british","beef","potato","bake","comfort","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1.5 lbs ground lamb or beef<br>• 1 onion, diced<br>• 2 carrots, diced<br>• 1 cup frozen peas<br>• 2 tbsp tomato paste<br>• 1 cup beef broth<br>• 1 tbsp Worcestershire sauce<br>• 2 tsp thyme<br>• 4 potatoes, boiled and mashed<br>• 1/4 cup butter<br>• 1/4 cup milk<br>• Salt, pepper<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Brown meat. Remove.<br>2. Sauté onion, carrots. Add tomato paste, broth, Worcestershire, thyme. Simmer 10 min.<br>3. Add peas and meat. Transfer to baking dish.<br>4. Mash potatoes with butter, milk, salt, pepper.<br>5. Spread mash over meat filling. Fork marks on top.<br>6. Bake at 400°F 25 min until golden and bubbly.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 40 min | 🍴 Servings: 6"
+    },
+    {
+      "name": "Ceviche",
+      "cuisine": "Peruvian",
+      "tags": ["peruvian","fish","citrus","raw","appetizer","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 1 lb fresh white fish, cubed<br>• 1/2 cup lime juice<br>• 1 red onion, thinly sliced<br>• 1 jalapeno, minced<br>• 1/2 cup cilantro, chopped<br>• 1 sweet potato<br>• 1 ear corn<br>• Salt<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Marinate fish in lime juice 15-20 min until opaque (cooked by acid).<br>2. Rinse onion in cold water.<br>3. Drain excess lime juice from fish.<br>4. Toss fish with onion, jalapeno, cilantro, salt.<br>5. Boil sweet potato and corn until tender. Slice.<br>6. Serve ceviche with sweet potato and corn.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 20 min | Cook: 15 min (marinate) | 🍴 Servings: 4"
+    },
+    {
+      "name": "Chili Con Carne",
+      "cuisine": "Tex-Mex",
+      "tags": ["tex-mex","beef","beans","spicy","stew","main"],
+      "content": "🛒 <b>INGREDIENTS:</b><br>• 2 lbs ground beef<br>• 1 onion, diced<br>• 4 garlic cloves<br>• 2 cans diced tomatoes<br>• 2 cans kidney beans<br>• 2 tbsp chili powder<br>• 1 tsp cumin<br>• 1 tsp paprika<br>• 1/2 tsp cayenne<br>• 1 cup beef broth<br>• Salt, pepper<br>• Toppings: cheese, sour cream, jalapenos<br><br>👨‍🍳 <b>INSTRUCTIONS:</b><br>1. Brown beef in a pot. Remove.<br>2. Sauté onion, garlic. Add spices. Cook 2 min.<br>3. Add tomatoes, broth, beef. Simmer 30 min.<br>4. Add beans. Simmer 15 more min.<br>5. Season with salt and pepper.<br>6. Serve with toppings: cheese, sour cream, jalapenos. Best with cornbread.<br><br>━━━━━━━━━━━━━━<br>⏱️ Prep: 10 min | Cook: 50 min | 🍴 Servings: 6-8"
+    }
   ]
 }
