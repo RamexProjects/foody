@@ -118,17 +118,6 @@ Edit `recipes.json`. Each recipe follows this structure:
 - **CSS Custom Properties** — Easy theming via `:root` variables in `base.css`
 - **Local-First** — All data lives in `recipes.json`, no backend needed
 - **Typing Animation** — Character-by-character bot response rendering
-
----
-
-## Roadmap
-
-- [ ] Voice input support
-- [ ] Recipe scaling (adjust serving sizes)
-- [ ] Shopping list generation
-- [ ] Multi-language support
-- [ ] Save favorite recipes
-
 ---
 
 ## License
