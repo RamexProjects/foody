@@ -118,8 +118,4 @@ Edit `recipes.json`. Each recipe follows this structure:
 - **CSS Custom Properties** — Easy theming via `:root` variables in `base.css`
 - **Local-First** — All data lives in `recipes.json`, no backend needed
 - **Typing Animation** — Character-by-character bot response rendering
----
 
-## License
-
-MIT
