@@ -7,12 +7,16 @@ import {
   setLastResults,
   setContext,
   resetContext,
+  createDefaultContext,
 } from './state.js';
 import {
   correctTypos,
   normalizeInput,
   extractEntities,
   calculateScore,
+  cleanInputForMatching,
+  matchRecipeByName,
+  normalizeTags,
   rand,
 } from './nlp.js';
 
@@ -92,29 +96,16 @@ function parseNumberedPick(input) {
 }
 
 function findRecipeMention(input, recipes) {
-  let clean = normalizeInput(input)
-    .replace(/\b(lets|let's|do|make|cook|want|have|show|give|me|some|the|a|an|please|thanks|then|now)\b/g, '')
-    .replace(/[?.!,]/g, '')
-    .trim();
-  if (!clean || clean.length < 3) return null;
-  let exact = recipes.find((r) => r.name && clean === r.name.toLowerCase());
-  if (exact) return exact;
-  exact = recipes.find((r) => r.name && clean.includes(r.name.toLowerCase()));
-  if (exact) return exact;
-  exact = recipes.find((r) => r.name && r.name.toLowerCase().includes(clean));
-  return exact || null;
+  const clean = cleanInputForMatching(input);
+  if (!clean) return null;
+  return recipes.find((r) => matchRecipeByName(clean, r)) || null;
 }
 
 function findRecipeFromLastResults(input, lastResults) {
   if (!lastResults || lastResults.length === 0) return null;
-  let clean = normalizeInput(input)
-    .replace(/\b(lets|let's|do|make|cook|want|have|show|give|me|some|the|a|an|please|thanks|number|#|then|now)\b/g, '')
-    .replace(/[?.!,]/g, '')
-    .trim();
-  if (!clean || clean.length < 3) return null;
-  return lastResults.find(
-    (r) => r.name && (clean === r.name.toLowerCase() || clean.includes(r.name.toLowerCase()) || r.name.toLowerCase().includes(clean)),
-  );
+  const clean = cleanInputForMatching(input, ['number', '#']);
+  if (!clean) return null;
+  return lastResults.find((r) => matchRecipeByName(clean, r));
 }
 
 function buildContextSummary(ctx) {
@@ -149,7 +140,7 @@ function handleRecommendationIntent(input, recipes, context) {
 
   context.filters.forEach((f) => {
     pool = pool.filter((r) => {
-      const tags = (r.tags || []).map((t) => t.toLowerCase());
+      const tags = normalizeTags(r);
       return tags.includes(f) || (r.content || '').toLowerCase().includes(f);
     });
   });
@@ -168,7 +159,7 @@ function handleRecommendationIntent(input, recipes, context) {
     if (regex.test(input)) {
       activeCategories.push(cat);
       pool = pool.filter((r) => {
-        const tags = (r.tags || []).map((t) => t.toLowerCase());
+        const tags = normalizeTags(r);
         const content = (r.content || '').toLowerCase();
         return (
           tags.includes(cat) ||
@@ -213,12 +204,12 @@ function handleSmartSearch(input, recipes, context) {
     context.ingredients = [...new Set([...context.ingredients, ...entities.ingredients])];
     context.excluded = [...new Set([...context.excluded, ...entities.excluded])];
   } else {
-    context = {
+    context = createDefaultContext({
       cuisine: entities.cuisines.length > 0 ? entities.cuisines[0] : null,
       ingredients: entities.ingredients,
       filters: entities.tags,
       excluded: entities.excluded,
-    };
+    });
   }
 
   setContext(context);
@@ -298,12 +289,7 @@ export function getResponse(raw) {
   const directRecipe = findRecipeMention(input, recipes);
   if (directRecipe) {
     setLastRecipe(directRecipe);
-    setContext({
-      cuisine: directRecipe.cuisine || null,
-      ingredients: [],
-      filters: [],
-      excluded: [],
-    });
+    setContext(createDefaultContext({ cuisine: directRecipe.cuisine || null }));
     return formatRecipe(directRecipe);
   }
 
