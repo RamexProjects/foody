@@ -199,6 +199,11 @@ export function rand(arr) {
   return arr && arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : null;
 }
 
+export function escapeHtml(str) {
+  const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return String(str).replace(/[&<>"']/g, (c) => map[c]);
+}
+
 export function getTimestamp() {
   const now = new Date();
   return now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
