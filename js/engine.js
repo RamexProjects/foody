@@ -14,6 +14,7 @@ import {
   extractEntities,
   calculateScore,
   rand,
+  escapeHtml,
 } from './nlp.js';
 
 function cuisineSummary(recipes) {
@@ -119,10 +120,10 @@ function findRecipeFromLastResults(input, lastResults) {
 
 function buildContextSummary(ctx) {
   const parts = [];
-  if (ctx.cuisine) parts.push(ctx.cuisine);
-  if (ctx.filters.length > 0) parts.push(ctx.filters.join(', '));
-  if (ctx.ingredients.length > 0) parts.push('with ' + ctx.ingredients.join(', '));
-  if (ctx.excluded.length > 0) parts.push('without ' + ctx.excluded.join(', '));
+  if (ctx.cuisine) parts.push(escapeHtml(ctx.cuisine));
+  if (ctx.filters.length > 0) parts.push(ctx.filters.map(escapeHtml).join(', '));
+  if (ctx.ingredients.length > 0) parts.push('with ' + ctx.ingredients.map(escapeHtml).join(', '));
+  if (ctx.excluded.length > 0) parts.push('without ' + ctx.excluded.map(escapeHtml).join(', '));
   if (parts.length === 0) return 'your request';
   return parts.join(' ');
 }
@@ -182,7 +183,7 @@ function handleRecommendationIntent(input, recipes, context) {
 
   if (pool.length === 0) {
     if (context.cuisine && activeCategories.length > 0) {
-      return `😕 I don't have any ${activeCategories.join(' or ')} recipes for ${context.cuisine} cuisine. Try asking for something else!`;
+      return `😕 I don't have any ${activeCategories.map(escapeHtml).join(' or ')} recipes for ${escapeHtml(context.cuisine)} cuisine. Try asking for something else!`;
     }
     return null;
   }

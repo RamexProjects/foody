@@ -20,7 +20,11 @@ export function addMessage(text, type) {
 
   const bubble = document.createElement('div');
   bubble.className = `message-bubble ${type}`;
-  bubble.innerHTML = text.replace(/\n/g, '<br>');
+  if (type === 'user') {
+    bubble.textContent = text;
+  } else {
+    bubble.innerHTML = text.replace(/\n/g, '<br>');
+  }
 
   const time = document.createElement('div');
   time.className = 'message-time';
