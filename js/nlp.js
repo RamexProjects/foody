@@ -161,7 +161,7 @@ export function calculateScore(r, ctx) {
   let score = 0;
   const content = (r.content || '').toLowerCase();
   const name = (r.name || '').toLowerCase();
-  const tags = (r.tags || []).map((t) => t.toLowerCase());
+  const tags = normalizeTags(r);
   const cuisine = (r.cuisine || '').toLowerCase();
 
   if (ctx.cuisine) {
@@ -193,6 +193,28 @@ export function calculateScore(r, ctx) {
   });
 
   return score;
+}
+
+const BASE_STOPWORDS = ['lets', "let's", 'do', 'make', 'cook', 'want', 'have', 'show', 'give', 'me', 'some', 'the', 'a', 'an', 'please', 'thanks', 'then', 'now'];
+
+export function cleanInputForMatching(input, extraStopwords = []) {
+  const allStopwords = [...BASE_STOPWORDS, ...extraStopwords];
+  const pattern = new RegExp(`\\b(${allStopwords.join('|')})\\b`, 'g');
+  const clean = normalizeInput(input)
+    .replace(pattern, '')
+    .replace(/[?.!,]/g, '')
+    .trim();
+  return clean.length < 3 ? null : clean;
+}
+
+export function matchRecipeByName(clean, recipe) {
+  if (!recipe.name) return false;
+  const name = recipe.name.toLowerCase();
+  return clean === name || clean.includes(name) || name.includes(clean);
+}
+
+export function normalizeTags(recipe) {
+  return (recipe.tags || []).map((t) => t.toLowerCase());
 }
 
 export function rand(arr) {

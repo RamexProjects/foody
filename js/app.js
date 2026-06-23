@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(() => {});
 
+  function sendBotReply(responseFn) {
+    const loadId = showLoading();
+    setTimeout(() => {
+      removeLoading(loadId);
+      typeWriter(responseFn());
+    }, 600);
+  }
+
   function sendMessage() {
     const text = userInput.value.trim();
     if (!text) return;
@@ -22,12 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     addMessage(text, 'user');
     userInput.value = '';
     userInput.style.height = '46px';
-
-    const loadId = showLoading();
-    setTimeout(() => {
-      removeLoading(loadId);
-      typeWriter(getResponse(text));
-    }, 600);
+    sendBotReply(() => getResponse(text));
   }
 
   sendBtn.addEventListener('click', sendMessage);
@@ -52,11 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (q === 'random') {
       removeChips();
       addMessage('🎲 Surprise me!', 'user');
-      const loadId = showLoading();
-      setTimeout(() => {
-        removeLoading(loadId);
-        typeWriter(doRandom());
-      }, 600);
+      sendBotReply(() => doRandom());
       return;
     }
     userInput.value = q;

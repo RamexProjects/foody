@@ -46,8 +46,12 @@ export function setContext(ctx) {
   state.context = ctx;
 }
 
+export function createDefaultContext(overrides = {}) {
+  return { cuisine: null, ingredients: [], filters: [], excluded: [], ...overrides };
+}
+
 export function resetContext() {
-  state.context = { cuisine: null, ingredients: [], filters: [], excluded: [] };
+  state.context = createDefaultContext();
 }
 
 export function resetAll() {
