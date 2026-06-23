@@ -15,6 +15,11 @@ export function getState() {
 }
 
 export function setRecipes(recipes) {
+  if (!Array.isArray(recipes)) {
+    console.error('setRecipes: expected an array, got', typeof recipes);
+    state.recipes = [];
+    return;
+  }
   state.recipes = recipes;
 }
 

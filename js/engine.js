@@ -42,7 +42,7 @@ function handleChitChat(input) {
     return rand([
       'Hello! 👋 I\'m <b>Foody</b>, your recipe assistant. What would you like to cook today?',
       'Hey there! 🍳 Hungry? Just tell me a dish, cuisine, or ingredient and I\'ll find you a recipe!',
-    ]);
+    ]) || 'Hello! 👋 How can I help you cook today?';
   }
   if (/\b(thank(s| you)|thx|ty|cheers|appreciate)\b/.test(input)) {
     return "You're very welcome! 🎉 Happy cooking!";
@@ -280,7 +280,11 @@ export function getResponse(raw) {
 
   const pick = parseNumberedPick(input);
   if (pick !== null && getLastResults().length) {
-    const chosen = getLastResults()[pick];
+    const results = getLastResults();
+    if (pick < 0 || pick >= results.length) {
+      return `\u{1F914} I only showed <b>${results.length}</b> results. Pick a number between 1 and ${results.length}!`;
+    }
+    const chosen = results[pick];
     if (chosen) {
       setLastRecipe(chosen);
       setLastResults([]);
