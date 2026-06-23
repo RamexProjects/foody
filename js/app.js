@@ -2,6 +2,8 @@ import { setRecipes, resetAll } from './state.js';
 import { getResponse, doRandom } from './engine.js';
 import { addMessage, showLoading, removeLoading, typeWriter, clearChat, removeChips } from './ui.js';
 
+const LOAD_ERROR_MSG = '\u{1F61E} I couldn\'t load my recipe book. Please refresh the page to try again.';
+
 document.addEventListener('DOMContentLoaded', () => {
   const chatBox = document.getElementById('chat-box');
   const userInput = document.getElementById('user-input');
@@ -9,11 +11,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearBtn = document.getElementById('clear-btn');
 
   fetch('recipes.json')
-    .then((r) => r.json())
-    .then((data) => {
-      setRecipes(data.recipes || []);
+    .then((r) => {
+      if (!r.ok) throw new Error(`Failed to load recipes (HTTP ${r.status})`);
+      return r.json();
     })
-    .catch(() => {});
+    .then((data) => {
+      if (!data || !Array.isArray(data.recipes)) {
+        throw new Error('Invalid recipe data: expected { recipes: [...] }');
+      }
+      setRecipes(data.recipes);
+    })
+    .catch((err) => {
+      console.error('Recipe loading failed:', err);
+      addMessage(LOAD_ERROR_MSG, 'bot');
+    });
 
   function sendMessage() {
     const text = userInput.value.trim();
@@ -26,7 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadId = showLoading();
     setTimeout(() => {
       removeLoading(loadId);
-      typeWriter(getResponse(text));
+      try {
+        typeWriter(getResponse(text));
+      } catch (err) {
+        console.error('Error generating response:', err);
+        addMessage('\u{1F61E} Something went wrong. Please try again!', 'bot');
+      }
     }, 600);
   }
 
@@ -55,7 +71,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const loadId = showLoading();
       setTimeout(() => {
         removeLoading(loadId);
-        typeWriter(doRandom());
+        try {
+          typeWriter(doRandom());
+        } catch (err) {
+          console.error('Error generating random recipe:', err);
+          addMessage('\u{1F61E} Something went wrong. Please try again!', 'bot');
+        }
       }, 600);
       return;
     }

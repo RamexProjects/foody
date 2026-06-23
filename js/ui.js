@@ -60,7 +60,11 @@ export function removeLoading(id) {
 }
 
 export function typeWriter(text) {
-  if (!text) return;
+  if (!text) {
+    console.warn('typeWriter called with empty response');
+    addMessage('\u{1F914} I\'m not sure how to respond to that. Try asking for a recipe or cuisine!', 'bot');
+    return;
+  }
   const row = document.createElement('div');
   row.className = 'message-row bot';
 
